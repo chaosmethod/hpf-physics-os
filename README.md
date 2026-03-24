@@ -54,6 +54,8 @@ It is **not** a claim that strongest-form microscopic legality closure or first-
 
 ## Key conceptual structure
 
+![HPF Stability Function and Regime Transitions](FLUXphase.png)
+
 ### 1. Legality is not validity
 
 HPF treats these as distinct.
