@@ -40,10 +40,10 @@ The framework now contains:
 - a locked **two-wall architecture**,
 - a candidate-locked closure-strain quartet,
 - a locked routing score / picker architecture,
-- an architecturally derived \(M_{\rm route}\),
+- an architecturally derived $M_{\rm route}$,
 - a repaired reversible executable registry,
 - a live continuation-ambiguity microscopic burden channel,
-- a legality-tail-sensitive bridge recalibration recovering the four-regime derived-\(\zeta\) corridor,
+- a legality-tail-sensitive bridge recalibration recovering the four-regime derived-$\zeta$ corridor,
 - a theorem-safe v0.2.8 **existence-sensor** protocol and finite-family test pass.
 
 This is a serious, coherent release.
@@ -70,15 +70,13 @@ That means geometry can fail before substrate illegality appears.
 HPF keeps two walls distinct:
 
 - **Upper wall:** exact substrate hard wall  
-  \[
+$$
   \Lambda_c^{(\mathrm{sub})}=1
-  \]
-
+$$
 - **Lower wall:** geometry-validity wall  
-  \[
+$$
   \Lambda_c^{(\mathrm{geom})}<1
-  \]
-
+$$
 Canonical meaning:
 
 - geometry may become invalid while substrate legality still survives,
@@ -99,7 +97,7 @@ Geometry/gravity is a bounded effective regime, not the regulator. When validity
   Top-level canon and first file to hand a reader.
 
 - **Volume II** — `volume-2-microscopic-derivation.md`
-  Microscopic derivation line, executable development spine, grouped-\(L_2\) legality branch, theorem-work chain, and current executable context.
+  Microscopic derivation line, executable development spine, grouped-$L_2$ legality branch, theorem-work chain, and current executable context.
 
 - **Volume III** — `volume-3-provenance-map.md`
   Supersession map, provenance, live-reference guide, and anti-drift navigation layer.
@@ -130,10 +128,10 @@ The current live executable family is the **v0.2.x** line.
 ### Enriched-canon progression
 
 - **v0.2.0** — first enriched-canon executable reference  
-- **v0.2.1** — first explicit derived-\(\zeta\) recovery line  
-- **v0.2.2** — grouped-\(L_2\) promotion branch  
-- **v0.2.3** — tuned grouped-\(L_2\) projection branch  
-- **v0.2.4** — floor-fixed grouped-\(L_2\) projection branch  
+- **v0.2.1** — first explicit derived-$\zeta$ recovery line  
+- **v0.2.2** — grouped-$L_2$ promotion branch  
+- **v0.2.3** — tuned grouped-$L_2$ projection branch  
+- **v0.2.4** — floor-fixed grouped-$L_2$ projection branch  
 - **v0.2.5** — reversible-registry repair branch  
 - **v0.2.6** — continuation-ambiguity executable patch  
 - **v0.2.7** — bridged continuation-ambiguity line with legality-tail-sensitive bridge recalibration  
@@ -150,7 +148,7 @@ Current recommendation:
 
 The v0.2.8 existence-sensor protocol asks a narrow executable question:
 
-> On the sanitized reversible subregistry, does \(F_{\min}(\psi_{\rm in}) < 1\) track the existence of at least one actually available legal reversible continuation?
+> On the sanitized reversible subregistry, does $F_{\min}(\psi_{\rm in}) < 1$ track the existence of at least one actually available legal reversible continuation?
 
 This is explicitly **not** a universal sufficiency theorem.
 

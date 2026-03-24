@@ -70,7 +70,7 @@
 - **existence-sensor test report:** `existence-sensor-report.json`
 - **sigma pressure test artifact:** `sigma-pressure-test.json`
 - **historical stable baseline reference:** v0.1.2 normalized predecessor baseline (retained conceptually through Volume II discussion)
-- **historical floor-fix milestone:** v0.2.4 remains the key pre-registry-repair anchor for the earlier derived-\(\zeta\) recovery line
+- **historical floor-fix milestone:** v0.2.4 remains the key pre-registry-repair anchor for the earlier derived-$\zeta$ recovery line
 
 Interpretation:
 - v0.2.8 is the current front executable embodiment of the enriched canon,
@@ -94,7 +94,7 @@ No recovered or older text may be used to:
 - collapse geometry into the regulator,
 - demote candidate-locked structures back to simply open,
 - promote open frontier items to fully closed,
-- erase the fixed HPF \(\to\) MDEA \(\to\) geometry/gravity \(\to\) QPRCA order.
+- erase the fixed HPF $\to$ MDEA $\to$ geometry/gravity $\to$ QPRCA order.
 
 ---
 

@@ -6,7 +6,7 @@ This note defines the theorem-safe executable protocol for testing whether the m
 
 The immediate executable target is:
 
-> On the sanitized reversible subregistry, does \(F_{\min}(\psi_{\rm in}) < 1\) track the existence of at least one actually available legal reversible continuation?
+> On the sanitized reversible subregistry, does $F_{\min}(\psi_{\rm in}) < 1$ track the existence of at least one actually available legal reversible continuation?
 
 This is **not** a universal sufficiency theorem. It is an executable test on the present finite reversible family.
 
@@ -20,9 +20,9 @@ Before the full sweep, the following are fixed:
 
 2. **Candidate minimal Sigma-equivalence**
    - Continuation signature:
-     \[
+$$
      \Sigma=(T_{\rm out}, C_{\rm mode}, R_{\rm eng})
-     \]
+$$
    - `T_out`: categorical transport outcome
    - `C_mode`: categorical collision / occupancy handling mode
    - `R_eng`: categorical non-transport resource engagement
@@ -33,7 +33,7 @@ Before the full sweep, the following are fixed:
 
 4. **Threshold asymmetry**
    - False positives are the critical failure mode.
-   - A false positive means \(F_{\min}<1\) while no legal continuation exists, so the putative existence sensor overstates legality in the exact direction that would mislead the sufficiency program.
+   - A false positive means $F_{\min}<1$ while no legal continuation exists, so the putative existence sensor overstates legality in the exact direction that would mislead the sufficiency program.
 
 ## Pass / fail interpretation
 
