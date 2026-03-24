@@ -1,0 +1,7976 @@
+{
+  "aggregate_mode": "grouped_l2",
+  "confusion_matrix": {
+    "false_negative": 0,
+    "false_positive": 0,
+    "true_negative": 52,
+    "true_positive": 204
+  },
+  "model_mode": "baseline",
+  "results": [
+    {
+      "F_min": 0.07747012924750557,
+      "P_cont": 0.3098805169900223,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 3,
+      "continuation_classes": {
+        "inactive | pass | none": [
+          "ID",
+          "SWAP",
+          "SB",
+          "BOUNCE",
+          "EXCH",
+          "SWEQ"
+        ],
+        "inactive | pass | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "inactive | pass | storage": [
+          "BQ0"
+        ]
+      },
+      "continuation_neff": 1.975609756097561,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        0,
+        0
+      ]
+    },
+    {
+      "F_min": 0.48731001041379196,
+      "P_cont": 0.5350264792820728,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "left_biased | pass | none": [
+          "ID",
+          "SWAP",
+          "SB",
+          "SWEQ"
+        ],
+        "left_biased | pass | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "left_biased | pass | storage": [
+          "BQ0"
+        ],
+        "right_biased | pass | none": [
+          "BOUNCE",
+          "EXCH"
+        ]
+      },
+      "continuation_neff": 3.24,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        0,
+        1
+      ]
+    },
+    {
+      "F_min": 0.4628346584361469,
+      "P_cont": 0.43712507137149254,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "left_biased | pass | none": [
+          "BOUNCE"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "SWAP",
+          "SB",
+          "EXCH",
+          "SWEQ"
+        ],
+        "right_biased | pass | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "right_biased | pass | storage": [
+          "BQ0"
+        ]
+      },
+      "continuation_neff": 2.6129032258064515,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        0,
+        2
+      ]
+    },
+    {
+      "F_min": 0.3932437712249661,
+      "P_cont": 0.5729750848998644,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "balanced | buffer | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "balanced | buffer | storage": [
+          "BQ0"
+        ],
+        "balanced | pass | none": [
+          "ID",
+          "SB",
+          "BOUNCE",
+          "SWEQ"
+        ],
+        "balanced | reroute | none": [
+          "SWAP"
+        ],
+        "right_biased | reroute | none": [
+          "EXCH"
+        ]
+      },
+      "continuation_neff": 3.5217391304347827,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        0,
+        3
+      ]
+    },
+    {
+      "F_min": 0.4585867574827089,
+      "P_cont": 0.46747762394466863,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 3,
+      "continuation_classes": {
+        "inactive | pass | none": [
+          "ID",
+          "BOUNCE",
+          "EXCH"
+        ],
+        "inactive | pass | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "inactive | pass | storage": [
+          "SWAP",
+          "SB",
+          "BQ0",
+          "SWEQ"
+        ]
+      },
+      "continuation_neff": 2.793103448275862,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        0,
+        4
+      ]
+    },
+    {
+      "F_min": 0.94643490243512,
+      "P_cont": 0.6143781254192888,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "left_biased | pass | none": [
+          "ID",
+          "SWEQ"
+        ],
+        "left_biased | pass | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "left_biased | pass | storage": [
+          "SWAP",
+          "SB",
+          "BQ0"
+        ],
+        "right_biased | pass | none": [
+          "BOUNCE",
+          "EXCH"
+        ]
+      },
+      "continuation_neff": 3.857142857142857,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        0,
+        5
+      ]
+    },
+    {
+      "F_min": 0.9334964522727998,
+      "P_cont": 0.5729750848998644,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "left_biased | pass | none": [
+          "BOUNCE"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "EXCH",
+          "SWEQ"
+        ],
+        "right_biased | pass | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "right_biased | pass | storage": [
+          "SWAP",
+          "SB",
+          "BQ0"
+        ]
+      },
+      "continuation_neff": 3.5217391304347827,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        0,
+        6
+      ]
+    },
+    {
+      "F_min": 0.8312275219927537,
+      "P_cont": 0.6599280703768123,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "balanced | buffer | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "balanced | buffer | storage": [
+          "SB",
+          "BQ0"
+        ],
+        "balanced | mixed | storage": [
+          "SWAP"
+        ],
+        "balanced | pass | none": [
+          "ID",
+          "BOUNCE",
+          "SWEQ"
+        ],
+        "right_biased | reroute | none": [
+          "EXCH"
+        ]
+      },
+      "continuation_neff": 4.2631578947368425,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        0,
+        7
+      ]
+    },
+    {
+      "F_min": 0.07430923323362121,
+      "P_cont": 0.26751323964103635,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 2,
+      "continuation_classes": {
+        "inactive | pass | none": [
+          "ID",
+          "SB",
+          "BOUNCE",
+          "EXCH",
+          "TQ0",
+          "BQ0"
+        ],
+        "inactive | pass | queue": [
+          "SWAP",
+          "TQ",
+          "SWEQ"
+        ]
+      },
+      "continuation_neff": 1.7999999999999998,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        0,
+        8
+      ]
+    },
+    {
+      "F_min": 0.5063567758475073,
+      "P_cont": 0.40867083067793086,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 3,
+      "continuation_classes": {
+        "left_biased | pass | none": [
+          "ID",
+          "SB",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ],
+        "left_biased | pass | queue": [
+          "SWAP",
+          "TQ"
+        ],
+        "right_biased | pass | none": [
+          "BOUNCE",
+          "EXCH"
+        ]
+      },
+      "continuation_neff": 2.454545454545454,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        0,
+        9
+      ]
+    },
+    {
+      "F_min": 0.4789150220453104,
+      "P_cont": 0.3098805169900223,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 3,
+      "continuation_classes": {
+        "left_biased | pass | none": [
+          "BOUNCE"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "SB",
+          "EXCH",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ],
+        "right_biased | pass | queue": [
+          "SWAP",
+          "TQ"
+        ]
+      },
+      "continuation_neff": 1.975609756097561,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        0,
+        10
+      ]
+    },
+    {
+      "F_min": 0.37017812229544544,
+      "P_cont": 0.33264124026360364,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "balanced | buffer | queue": [
+          "TQ"
+        ],
+        "balanced | mixed | queue": [
+          "SWAP"
+        ],
+        "balanced | pass | none": [
+          "ID",
+          "SB",
+          "BOUNCE",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ],
+        "right_biased | reroute | none": [
+          "EXCH"
+        ]
+      },
+      "continuation_neff": 2.076923076923077,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        0,
+        11
+      ]
+    },
+    {
+      "F_min": 0.5132589540612472,
+      "P_cont": 0.43712507137149254,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "inactive | pass | both": [
+          "SWAP",
+          "SWEQ"
+        ],
+        "inactive | pass | none": [
+          "ID",
+          "BOUNCE",
+          "EXCH",
+          "TQ0",
+          "BQ0"
+        ],
+        "inactive | pass | queue": [
+          "TQ"
+        ],
+        "inactive | pass | storage": [
+          "SB"
+        ]
+      },
+      "continuation_neff": 2.6129032258064515,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        0,
+        12
+      ]
+    },
+    {
+      "F_min": 1.066853088311771,
+      "P_cont": 0.5729750848998644,
+      "confusion_label": "true_negative",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "left_biased | pass | both": [
+          "SWAP"
+        ],
+        "left_biased | pass | none": [
+          "ID",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ],
+        "left_biased | pass | queue": [
+          "TQ"
+        ],
+        "left_biased | pass | storage": [
+          "SB"
+        ],
+        "right_biased | pass | none": [
+          "BOUNCE",
+          "EXCH"
+        ]
+      },
+      "continuation_neff": 3.5217391304347827,
+      "exists_legal_continuation": false,
+      "input_pair": [
+        0,
+        13
+      ]
+    },
+    {
+      "F_min": 1.0291754236849155,
+      "P_cont": 0.4674776239446685,
+      "confusion_label": "true_negative",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "left_biased | pass | none": [
+          "BOUNCE"
+        ],
+        "right_biased | pass | both": [
+          "SWAP"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "EXCH",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ],
+        "right_biased | pass | queue": [
+          "TQ"
+        ],
+        "right_biased | pass | storage": [
+          "SB"
+        ]
+      },
+      "continuation_neff": 2.7931034482758617,
+      "exists_legal_continuation": false,
+      "input_pair": [
+        0,
+        14
+      ]
+    },
+    {
+      "F_min": 0.8812420085516672,
+      "P_cont": 0.4674776239446685,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "balanced | buffer | queue": [
+          "TQ"
+        ],
+        "balanced | buffer | storage": [
+          "SB"
+        ],
+        "balanced | mixed | both": [
+          "SWAP"
+        ],
+        "balanced | pass | none": [
+          "ID",
+          "BOUNCE",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ],
+        "right_biased | reroute | none": [
+          "EXCH"
+        ]
+      },
+      "continuation_neff": 2.7931034482758617,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        0,
+        15
+      ]
+    },
+    {
+      "F_min": 0.4628346584361469,
+      "P_cont": 0.43712507137149254,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "left_biased | pass | none": [
+          "ID",
+          "SWAP",
+          "SB",
+          "EXCH",
+          "SWEQ"
+        ],
+        "left_biased | pass | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "left_biased | pass | storage": [
+          "BQ0"
+        ],
+        "right_biased | pass | none": [
+          "BOUNCE"
+        ]
+      },
+      "continuation_neff": 2.6129032258064515,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        1,
+        0
+      ]
+    },
+    {
+      "F_min": 0.49679716181823985,
+      "P_cont": 0.5729750848998644,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "balanced | pass | none": [
+          "EXCH"
+        ],
+        "left_biased | pass | none": [
+          "ID",
+          "SWAP",
+          "SB",
+          "SWEQ"
+        ],
+        "left_biased | pass | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "left_biased | pass | storage": [
+          "BQ0"
+        ],
+        "right_biased | pass | none": [
+          "BOUNCE"
+        ]
+      },
+      "continuation_neff": 3.5217391304347827,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        1,
+        1
+      ]
+    },
+    {
+      "F_min": 0.43102351984077936,
+      "P_cont": 0.3098805169900223,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 3,
+      "continuation_classes": {
+        "balanced | pass | none": [
+          "ID",
+          "SWAP",
+          "SB",
+          "BOUNCE",
+          "EXCH",
+          "SWEQ"
+        ],
+        "balanced | pass | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "balanced | pass | storage": [
+          "BQ0"
+        ]
+      },
+      "continuation_neff": 1.975609756097561,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        1,
+        2
+      ]
+    },
+    {
+      "F_min": 0.6435354081874769,
+      "P_cont": 0.6599280703768123,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "left_biased | buffer | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "left_biased | buffer | storage": [
+          "BQ0"
+        ],
+        "left_biased | pass | none": [
+          "ID",
+          "SB",
+          "SWEQ"
+        ],
+        "left_biased | reroute | none": [
+          "SWAP"
+        ],
+        "right_biased | reroute | none": [
+          "BOUNCE",
+          "EXCH"
+        ]
+      },
+      "continuation_neff": 4.2631578947368425,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        1,
+        3
+      ]
+    },
+    {
+      "F_min": 0.49679716181823985,
+      "P_cont": 0.5729750848998644,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "left_biased | pass | none": [
+          "ID",
+          "EXCH",
+          "SWEQ"
+        ],
+        "left_biased | pass | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "left_biased | pass | storage": [
+          "SWAP",
+          "SB",
+          "BQ0"
+        ],
+        "right_biased | pass | none": [
+          "BOUNCE"
+        ]
+      },
+      "continuation_neff": 3.5217391304347827,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        1,
+        4
+      ]
+    },
+    {
+      "F_min": 0.9334964522727998,
+      "P_cont": 0.5729750848998644,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "balanced | pass | none": [
+          "EXCH"
+        ],
+        "left_biased | pass | none": [
+          "ID"
+        ],
+        "left_biased | pass | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "left_biased | pass | storage": [
+          "SWAP",
+          "SB",
+          "BQ0",
+          "SWEQ"
+        ],
+        "right_biased | pass | none": [
+          "BOUNCE"
+        ]
+      },
+      "continuation_neff": 3.5217391304347827,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        1,
+        5
+      ]
+    },
+    {
+      "F_min": 0.9005284957243012,
+      "P_cont": 0.46747762394466863,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 3,
+      "continuation_classes": {
+        "balanced | pass | none": [
+          "ID",
+          "BOUNCE",
+          "EXCH"
+        ],
+        "balanced | pass | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "balanced | pass | storage": [
+          "SWAP",
+          "SB",
+          "BQ0",
+          "SWEQ"
+        ]
+      },
+      "continuation_neff": 2.793103448275862,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        1,
+        6
+      ]
+    },
+    {
+      "F_min": 0.8839321959901911,
+      "P_cont": 0.710549038418717,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "left_biased | buffer | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "left_biased | buffer | storage": [
+          "SB",
+          "BQ0"
+        ],
+        "left_biased | mixed | storage": [
+          "SWAP"
+        ],
+        "left_biased | pass | none": [
+          "ID",
+          "SWEQ"
+        ],
+        "right_biased | reroute | none": [
+          "BOUNCE",
+          "EXCH"
+        ]
+      },
+      "continuation_neff": 4.764705882352941,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        1,
+        7
+      ]
+    },
+    {
+      "F_min": 0.43102351984077936,
+      "P_cont": 0.3098805169900223,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 3,
+      "continuation_classes": {
+        "left_biased | pass | none": [
+          "ID",
+          "SB",
+          "EXCH",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ],
+        "left_biased | pass | queue": [
+          "SWAP",
+          "TQ"
+        ],
+        "right_biased | pass | none": [
+          "BOUNCE"
+        ]
+      },
+      "continuation_neff": 1.975609756097561,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        1,
+        8
+      ]
+    },
+    {
+      "F_min": 0.5317259895480819,
+      "P_cont": 0.5,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "balanced | pass | none": [
+          "EXCH"
+        ],
+        "left_biased | pass | none": [
+          "ID",
+          "SB",
+          "TQ0",
+          "BQ0"
+        ],
+        "left_biased | pass | queue": [
+          "SWAP",
+          "TQ",
+          "SWEQ"
+        ],
+        "right_biased | pass | none": [
+          "BOUNCE"
+        ]
+      },
+      "continuation_neff": 3.0,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        1,
+        9
+      ]
+    },
+    {
+      "F_min": 0.46714633389281424,
+      "P_cont": 0.26751323964103635,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 2,
+      "continuation_classes": {
+        "balanced | pass | none": [
+          "ID",
+          "SB",
+          "BOUNCE",
+          "EXCH",
+          "TQ0",
+          "BQ0"
+        ],
+        "balanced | pass | queue": [
+          "SWAP",
+          "TQ",
+          "SWEQ"
+        ]
+      },
+      "continuation_neff": 1.7999999999999998,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        1,
+        10
+      ]
+    },
+    {
+      "F_min": 0.5878346584361469,
+      "P_cont": 0.43712507137149254,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "left_biased | buffer | queue": [
+          "TQ"
+        ],
+        "left_biased | mixed | queue": [
+          "SWAP"
+        ],
+        "left_biased | pass | none": [
+          "ID",
+          "SB",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ],
+        "right_biased | reroute | none": [
+          "BOUNCE",
+          "EXCH"
+        ]
+      },
+      "continuation_neff": 2.6129032258064515,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        1,
+        11
+      ]
+    },
+    {
+      "F_min": 0.5240991514088101,
+      "P_cont": 0.4674776239446685,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "left_biased | pass | both": [
+          "SWAP"
+        ],
+        "left_biased | pass | none": [
+          "ID",
+          "EXCH",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ],
+        "left_biased | pass | queue": [
+          "TQ"
+        ],
+        "left_biased | pass | storage": [
+          "SB"
+        ],
+        "right_biased | pass | none": [
+          "BOUNCE"
+        ]
+      },
+      "continuation_neff": 2.7931034482758617,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        1,
+        12
+      ]
+    },
+    {
+      "F_min": 1.1159866431399328,
+      "P_cont": 0.710549038418717,
+      "confusion_label": "true_negative",
+      "continuation_class_count": 6,
+      "continuation_classes": {
+        "balanced | pass | none": [
+          "EXCH"
+        ],
+        "left_biased | pass | both": [
+          "SWAP",
+          "SWEQ"
+        ],
+        "left_biased | pass | none": [
+          "ID",
+          "TQ0",
+          "BQ0"
+        ],
+        "left_biased | pass | queue": [
+          "TQ"
+        ],
+        "left_biased | pass | storage": [
+          "SB"
+        ],
+        "right_biased | pass | none": [
+          "BOUNCE"
+        ]
+      },
+      "continuation_neff": 4.764705882352941,
+      "exists_legal_continuation": false,
+      "input_pair": [
+        1,
+        13
+      ]
+    },
+    {
+      "F_min": 1.0183352263373526,
+      "P_cont": 0.43712507137149254,
+      "confusion_label": "true_negative",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "balanced | pass | both": [
+          "SWAP",
+          "SWEQ"
+        ],
+        "balanced | pass | none": [
+          "ID",
+          "BOUNCE",
+          "EXCH",
+          "TQ0",
+          "BQ0"
+        ],
+        "balanced | pass | queue": [
+          "TQ"
+        ],
+        "balanced | pass | storage": [
+          "SB"
+        ]
+      },
+      "continuation_neff": 2.6129032258064515,
+      "exists_legal_continuation": false,
+      "input_pair": [
+        1,
+        14
+      ]
+    },
+    {
+      "F_min": 0.9610746691606282,
+      "P_cont": 0.5729750848998644,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "left_biased | buffer | queue": [
+          "TQ"
+        ],
+        "left_biased | buffer | storage": [
+          "SB"
+        ],
+        "left_biased | mixed | both": [
+          "SWAP"
+        ],
+        "left_biased | pass | none": [
+          "ID",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ],
+        "right_biased | reroute | none": [
+          "BOUNCE",
+          "EXCH"
+        ]
+      },
+      "continuation_neff": 3.5217391304347827,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        1,
+        15
+      ]
+    },
+    {
+      "F_min": 0.48731001041379196,
+      "P_cont": 0.5350264792820728,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "left_biased | pass | none": [
+          "BOUNCE",
+          "EXCH"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "SWAP",
+          "SB",
+          "SWEQ"
+        ],
+        "right_biased | pass | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "right_biased | pass | storage": [
+          "BQ0"
+        ]
+      },
+      "continuation_neff": 3.24,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        2,
+        0
+      ]
+    },
+    {
+      "F_min": 0.43102351984077936,
+      "P_cont": 0.3098805169900223,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 3,
+      "continuation_classes": {
+        "balanced | pass | none": [
+          "ID",
+          "SWAP",
+          "SB",
+          "BOUNCE",
+          "EXCH",
+          "SWEQ"
+        ],
+        "balanced | pass | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "balanced | pass | storage": [
+          "BQ0"
+        ]
+      },
+      "continuation_neff": 1.975609756097561,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        2,
+        1
+      ]
+    },
+    {
+      "F_min": 0.49679716181823985,
+      "P_cont": 0.5729750848998644,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "balanced | pass | none": [
+          "EXCH"
+        ],
+        "left_biased | pass | none": [
+          "BOUNCE"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "SWAP",
+          "SB",
+          "SWEQ"
+        ],
+        "right_biased | pass | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "right_biased | pass | storage": [
+          "BQ0"
+        ]
+      },
+      "continuation_neff": 3.5217391304347827,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        2,
+        2
+      ]
+    },
+    {
+      "F_min": 0.6217971618182399,
+      "P_cont": 0.5729750848998644,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "left_biased | reroute | none": [
+          "BOUNCE"
+        ],
+        "right_biased | buffer | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "right_biased | buffer | storage": [
+          "BQ0"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "SB",
+          "EXCH",
+          "SWEQ"
+        ],
+        "right_biased | reroute | none": [
+          "SWAP"
+        ]
+      },
+      "continuation_neff": 3.5217391304347827,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        2,
+        3
+      ]
+    },
+    {
+      "F_min": 0.507147921948096,
+      "P_cont": 0.6143781254192888,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "left_biased | pass | none": [
+          "BOUNCE",
+          "EXCH"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "SWEQ"
+        ],
+        "right_biased | pass | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "right_biased | pass | storage": [
+          "SWAP",
+          "SB",
+          "BQ0"
+        ]
+      },
+      "continuation_neff": 3.857142857142857,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        2,
+        4
+      ]
+    },
+    {
+      "F_min": 0.9005284957243012,
+      "P_cont": 0.46747762394466863,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 3,
+      "continuation_classes": {
+        "balanced | pass | none": [
+          "ID",
+          "BOUNCE",
+          "EXCH"
+        ],
+        "balanced | pass | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "balanced | pass | storage": [
+          "SWAP",
+          "SB",
+          "BQ0",
+          "SWEQ"
+        ]
+      },
+      "continuation_neff": 2.793103448275862,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        2,
+        5
+      ]
+    },
+    {
+      "F_min": 0.9334964522727998,
+      "P_cont": 0.5729750848998644,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "balanced | pass | none": [
+          "EXCH"
+        ],
+        "left_biased | pass | none": [
+          "BOUNCE"
+        ],
+        "right_biased | pass | none": [
+          "ID"
+        ],
+        "right_biased | pass | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "right_biased | pass | storage": [
+          "SWAP",
+          "SB",
+          "BQ0",
+          "SWEQ"
+        ]
+      },
+      "continuation_neff": 3.5217391304347827,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        2,
+        6
+      ]
+    },
+    {
+      "F_min": 0.8681131434770959,
+      "P_cont": 0.6599280703768123,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "left_biased | reroute | none": [
+          "BOUNCE"
+        ],
+        "right_biased | buffer | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "right_biased | buffer | storage": [
+          "SB",
+          "BQ0"
+        ],
+        "right_biased | mixed | storage": [
+          "SWAP"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "EXCH",
+          "SWEQ"
+        ]
+      },
+      "continuation_neff": 4.2631578947368425,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        2,
+        7
+      ]
+    },
+    {
+      "F_min": 0.45572109826275653,
+      "P_cont": 0.40867083067793086,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 3,
+      "continuation_classes": {
+        "left_biased | pass | none": [
+          "BOUNCE",
+          "EXCH"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "SB",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ],
+        "right_biased | pass | queue": [
+          "SWAP",
+          "TQ"
+        ]
+      },
+      "continuation_neff": 2.454545454545454,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        2,
+        8
+      ]
+    },
+    {
+      "F_min": 0.46714633389281424,
+      "P_cont": 0.26751323964103635,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 2,
+      "continuation_classes": {
+        "balanced | pass | none": [
+          "ID",
+          "SB",
+          "BOUNCE",
+          "EXCH",
+          "TQ0",
+          "BQ0"
+        ],
+        "balanced | pass | queue": [
+          "SWAP",
+          "TQ",
+          "SWEQ"
+        ]
+      },
+      "continuation_neff": 1.7999999999999998,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        2,
+        9
+      ]
+    },
+    {
+      "F_min": 0.5317259895480819,
+      "P_cont": 0.5,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "balanced | pass | none": [
+          "EXCH"
+        ],
+        "left_biased | pass | none": [
+          "BOUNCE"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "SB",
+          "TQ0",
+          "BQ0"
+        ],
+        "right_biased | pass | queue": [
+          "SWAP",
+          "TQ",
+          "SWEQ"
+        ]
+      },
+      "continuation_neff": 3.0,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        2,
+        10
+      ]
+    },
+    {
+      "F_min": 0.5617137006591747,
+      "P_cont": 0.33264124026360364,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "left_biased | reroute | none": [
+          "BOUNCE"
+        ],
+        "right_biased | buffer | queue": [
+          "TQ"
+        ],
+        "right_biased | mixed | queue": [
+          "SWAP"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "SB",
+          "EXCH",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ]
+      },
+      "continuation_neff": 2.076923076923077,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        2,
+        11
+      ]
+    },
+    {
+      "F_min": 0.5617768160356659,
+      "P_cont": 0.5729750848998644,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "left_biased | pass | none": [
+          "BOUNCE",
+          "EXCH"
+        ],
+        "right_biased | pass | both": [
+          "SWAP"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ],
+        "right_biased | pass | queue": [
+          "TQ"
+        ],
+        "right_biased | pass | storage": [
+          "SB"
+        ]
+      },
+      "continuation_neff": 3.5217391304347827,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        2,
+        12
+      ]
+    },
+    {
+      "F_min": 1.0183352263373526,
+      "P_cont": 0.43712507137149254,
+      "confusion_label": "true_negative",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "balanced | pass | both": [
+          "SWAP",
+          "SWEQ"
+        ],
+        "balanced | pass | none": [
+          "ID",
+          "BOUNCE",
+          "EXCH",
+          "TQ0",
+          "BQ0"
+        ],
+        "balanced | pass | queue": [
+          "TQ"
+        ],
+        "balanced | pass | storage": [
+          "SB"
+        ]
+      },
+      "continuation_neff": 2.6129032258064515,
+      "exists_legal_continuation": false,
+      "input_pair": [
+        2,
+        13
+      ]
+    },
+    {
+      "F_min": 1.1159866431399328,
+      "P_cont": 0.710549038418717,
+      "confusion_label": "true_negative",
+      "continuation_class_count": 6,
+      "continuation_classes": {
+        "balanced | pass | none": [
+          "EXCH"
+        ],
+        "left_biased | pass | none": [
+          "BOUNCE"
+        ],
+        "right_biased | pass | both": [
+          "SWAP",
+          "SWEQ"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "TQ0",
+          "BQ0"
+        ],
+        "right_biased | pass | queue": [
+          "TQ"
+        ],
+        "right_biased | pass | storage": [
+          "SB"
+        ]
+      },
+      "continuation_neff": 4.764705882352941,
+      "exists_legal_continuation": false,
+      "input_pair": [
+        2,
+        14
+      ]
+    },
+    {
+      "F_min": 0.9233970045337726,
+      "P_cont": 0.4674776239446685,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "left_biased | reroute | none": [
+          "BOUNCE"
+        ],
+        "right_biased | buffer | queue": [
+          "TQ"
+        ],
+        "right_biased | buffer | storage": [
+          "SB"
+        ],
+        "right_biased | mixed | both": [
+          "SWAP"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "EXCH",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ]
+      },
+      "continuation_neff": 2.7931034482758617,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        2,
+        15
+      ]
+    },
+    {
+      "F_min": 0.3932437712249661,
+      "P_cont": 0.5729750848998644,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "balanced | buffer | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "balanced | buffer | storage": [
+          "BQ0"
+        ],
+        "balanced | pass | none": [
+          "ID",
+          "SB",
+          "BOUNCE",
+          "SWEQ"
+        ],
+        "balanced | reroute | none": [
+          "SWAP"
+        ],
+        "left_biased | reroute | none": [
+          "EXCH"
+        ]
+      },
+      "continuation_neff": 3.5217391304347827,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        3,
+        0
+      ]
+    },
+    {
+      "F_min": 0.6217971618182399,
+      "P_cont": 0.5729750848998644,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "left_biased | buffer | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "left_biased | buffer | storage": [
+          "BQ0"
+        ],
+        "left_biased | pass | none": [
+          "ID",
+          "SB",
+          "EXCH",
+          "SWEQ"
+        ],
+        "left_biased | reroute | none": [
+          "SWAP"
+        ],
+        "right_biased | reroute | none": [
+          "BOUNCE"
+        ]
+      },
+      "continuation_neff": 3.5217391304347827,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        3,
+        1
+      ]
+    },
+    {
+      "F_min": 0.6435354081874769,
+      "P_cont": 0.6599280703768123,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "left_biased | reroute | none": [
+          "BOUNCE",
+          "EXCH"
+        ],
+        "right_biased | buffer | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "right_biased | buffer | storage": [
+          "BQ0"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "SB",
+          "SWEQ"
+        ],
+        "right_biased | reroute | none": [
+          "SWAP"
+        ]
+      },
+      "continuation_neff": 4.2631578947368425,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        3,
+        2
+      ]
+    },
+    {
+      "F_min": 0.5774701292475055,
+      "P_cont": 0.3098805169900223,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 3,
+      "continuation_classes": {
+        "balanced | buffer | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "balanced | buffer | storage": [
+          "BQ0"
+        ],
+        "balanced | pass | none": [
+          "ID",
+          "SWAP",
+          "SB",
+          "BOUNCE",
+          "EXCH",
+          "SWEQ"
+        ]
+      },
+      "continuation_neff": 1.975609756097561,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        3,
+        3
+      ]
+    },
+    {
+      "F_min": 0.5187275219927537,
+      "P_cont": 0.6599280703768123,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "balanced | buffer | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "balanced | buffer | storage": [
+          "SB",
+          "BQ0"
+        ],
+        "balanced | mixed | storage": [
+          "SWAP"
+        ],
+        "balanced | pass | none": [
+          "ID",
+          "BOUNCE",
+          "SWEQ"
+        ],
+        "left_biased | reroute | none": [
+          "EXCH"
+        ]
+      },
+      "continuation_neff": 4.2631578947368425,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        3,
+        4
+      ]
+    },
+    {
+      "F_min": 0.9606692602343461,
+      "P_cont": 0.6599280703768123,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "left_biased | buffer | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "left_biased | buffer | storage": [
+          "SB",
+          "BQ0"
+        ],
+        "left_biased | mixed | storage": [
+          "SWAP"
+        ],
+        "left_biased | pass | none": [
+          "ID",
+          "EXCH",
+          "SWEQ"
+        ],
+        "right_biased | reroute | none": [
+          "BOUNCE"
+        ]
+      },
+      "continuation_neff": 4.2631578947368425,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        3,
+        5
+      ]
+    },
+    {
+      "F_min": 0.9764883127474413,
+      "P_cont": 0.710549038418717,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "left_biased | reroute | none": [
+          "BOUNCE",
+          "EXCH"
+        ],
+        "right_biased | buffer | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "right_biased | buffer | storage": [
+          "SB",
+          "BQ0"
+        ],
+        "right_biased | mixed | storage": [
+          "SWAP"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "SWEQ"
+        ]
+      },
+      "continuation_neff": 4.764705882352941,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        3,
+        6
+      ]
+    },
+    {
+      "F_min": 0.9005284957243012,
+      "P_cont": 0.46747762394466863,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 3,
+      "continuation_classes": {
+        "balanced | buffer | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "balanced | buffer | storage": [
+          "SWAP",
+          "SB",
+          "BQ0",
+          "SWEQ"
+        ],
+        "balanced | pass | none": [
+          "ID",
+          "BOUNCE",
+          "EXCH"
+        ]
+      },
+      "continuation_neff": 2.793103448275862,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        3,
+        7
+      ]
+    },
+    {
+      "F_min": 0.3331603100659009,
+      "P_cont": 0.33264124026360364,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "balanced | buffer | queue": [
+          "TQ"
+        ],
+        "balanced | mixed | queue": [
+          "SWAP"
+        ],
+        "balanced | pass | none": [
+          "ID",
+          "SB",
+          "BOUNCE",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ],
+        "left_biased | reroute | none": [
+          "EXCH"
+        ]
+      },
+      "continuation_neff": 2.076923076923077,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        3,
+        8
+      ]
+    },
+    {
+      "F_min": 0.5831603100659009,
+      "P_cont": 0.33264124026360364,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "left_biased | buffer | queue": [
+          "TQ"
+        ],
+        "left_biased | mixed | queue": [
+          "SWAP"
+        ],
+        "left_biased | pass | none": [
+          "ID",
+          "SB",
+          "EXCH",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ],
+        "right_biased | reroute | none": [
+          "BOUNCE"
+        ]
+      },
+      "continuation_neff": 2.076923076923077,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        3,
+        9
+      ]
+    },
+    {
+      "F_min": 0.6092812678428732,
+      "P_cont": 0.43712507137149254,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "left_biased | reroute | none": [
+          "BOUNCE",
+          "EXCH"
+        ],
+        "right_biased | buffer | queue": [
+          "TQ"
+        ],
+        "right_biased | mixed | queue": [
+          "SWAP"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "SB",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ]
+      },
+      "continuation_neff": 2.6129032258064515,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        3,
+        10
+      ]
+    },
+    {
+      "F_min": 0.6298647887891767,
+      "P_cont": 0.26751323964103635,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 2,
+      "continuation_classes": {
+        "balanced | buffer | queue": [
+          "SWAP",
+          "TQ",
+          "SWEQ"
+        ],
+        "balanced | pass | none": [
+          "ID",
+          "SB",
+          "BOUNCE",
+          "EXCH",
+          "TQ0",
+          "BQ0"
+        ]
+      },
+      "continuation_neff": 1.7999999999999998,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        3,
+        11
+      ]
+    },
+    {
+      "F_min": 0.5240991514088101,
+      "P_cont": 0.4674776239446685,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "balanced | buffer | queue": [
+          "TQ"
+        ],
+        "balanced | buffer | storage": [
+          "SB"
+        ],
+        "balanced | mixed | both": [
+          "SWAP"
+        ],
+        "balanced | pass | none": [
+          "ID",
+          "BOUNCE",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ],
+        "left_biased | reroute | none": [
+          "EXCH"
+        ]
+      },
+      "continuation_neff": 2.7931034482758617,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        3,
+        12
+      ]
+    },
+    {
+      "F_min": 1.0291754236849155,
+      "P_cont": 0.4674776239446685,
+      "confusion_label": "true_negative",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "left_biased | buffer | queue": [
+          "TQ"
+        ],
+        "left_biased | buffer | storage": [
+          "SB"
+        ],
+        "left_biased | mixed | both": [
+          "SWAP"
+        ],
+        "left_biased | pass | none": [
+          "ID",
+          "EXCH",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ],
+        "right_biased | reroute | none": [
+          "BOUNCE"
+        ]
+      },
+      "continuation_neff": 2.7931034482758617,
+      "exists_legal_continuation": false,
+      "input_pair": [
+        3,
+        13
+      ]
+    },
+    {
+      "F_min": 1.066853088311771,
+      "P_cont": 0.5729750848998644,
+      "confusion_label": "true_negative",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "left_biased | reroute | none": [
+          "BOUNCE",
+          "EXCH"
+        ],
+        "right_biased | buffer | queue": [
+          "TQ"
+        ],
+        "right_biased | buffer | storage": [
+          "SB"
+        ],
+        "right_biased | mixed | both": [
+          "SWAP"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ]
+      },
+      "continuation_neff": 3.5217391304347827,
+      "exists_legal_continuation": false,
+      "input_pair": [
+        3,
+        14
+      ]
+    },
+    {
+      "F_min": 1.0183352263373526,
+      "P_cont": 0.43712507137149254,
+      "confusion_label": "true_negative",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "balanced | buffer | both": [
+          "SWAP",
+          "SWEQ"
+        ],
+        "balanced | buffer | queue": [
+          "TQ"
+        ],
+        "balanced | buffer | storage": [
+          "SB"
+        ],
+        "balanced | pass | none": [
+          "ID",
+          "BOUNCE",
+          "EXCH",
+          "TQ0",
+          "BQ0"
+        ]
+      },
+      "continuation_neff": 2.6129032258064515,
+      "exists_legal_continuation": false,
+      "input_pair": [
+        3,
+        15
+      ]
+    },
+    {
+      "F_min": 0.4585867574827089,
+      "P_cont": 0.46747762394466863,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 3,
+      "continuation_classes": {
+        "inactive | pass | none": [
+          "ID",
+          "BOUNCE",
+          "EXCH"
+        ],
+        "inactive | pass | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "inactive | pass | storage": [
+          "SWAP",
+          "SB",
+          "BQ0",
+          "SWEQ"
+        ]
+      },
+      "continuation_neff": 2.793103448275862,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        4,
+        0
+      ]
+    },
+    {
+      "F_min": 0.507147921948096,
+      "P_cont": 0.6143781254192888,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "left_biased | pass | none": [
+          "ID",
+          "SWEQ"
+        ],
+        "left_biased | pass | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "left_biased | pass | storage": [
+          "SWAP",
+          "SB",
+          "BQ0"
+        ],
+        "right_biased | pass | none": [
+          "BOUNCE",
+          "EXCH"
+        ]
+      },
+      "continuation_neff": 3.857142857142857,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        4,
+        1
+      ]
+    },
+    {
+      "F_min": 0.49679716181823985,
+      "P_cont": 0.5729750848998644,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "left_biased | pass | none": [
+          "BOUNCE"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "EXCH",
+          "SWEQ"
+        ],
+        "right_biased | pass | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "right_biased | pass | storage": [
+          "SWAP",
+          "SB",
+          "BQ0"
+        ]
+      },
+      "continuation_neff": 3.5217391304347827,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        4,
+        2
+      ]
+    },
+    {
+      "F_min": 0.5187275219927537,
+      "P_cont": 0.6599280703768123,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "balanced | buffer | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "balanced | buffer | storage": [
+          "SB",
+          "BQ0"
+        ],
+        "balanced | mixed | storage": [
+          "SWAP"
+        ],
+        "balanced | pass | none": [
+          "ID",
+          "BOUNCE",
+          "SWEQ"
+        ],
+        "right_biased | reroute | none": [
+          "EXCH"
+        ]
+      },
+      "continuation_neff": 4.2631578947368425,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        4,
+        3
+      ]
+    },
+    {
+      "F_min": 0.40933766155938195,
+      "P_cont": 0.3098805169900223,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 3,
+      "continuation_classes": {
+        "inactive | pass | none": [
+          "ID",
+          "SWAP",
+          "SB",
+          "BOUNCE",
+          "EXCH",
+          "SWEQ"
+        ],
+        "inactive | pass | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "inactive | pass | storage": [
+          "BQ0"
+        ]
+      },
+      "continuation_neff": 1.975609756097561,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        4,
+        4
+      ]
+    },
+    {
+      "F_min": 0.92163751301724,
+      "P_cont": 0.5350264792820728,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "left_biased | pass | none": [
+          "ID",
+          "SWAP",
+          "SB",
+          "SWEQ"
+        ],
+        "left_biased | pass | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "left_biased | pass | storage": [
+          "BQ0"
+        ],
+        "right_biased | pass | none": [
+          "BOUNCE",
+          "EXCH"
+        ]
+      },
+      "continuation_neff": 3.24,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        4,
+        5
+      ]
+    },
+    {
+      "F_min": 0.8910433230451836,
+      "P_cont": 0.43712507137149254,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "left_biased | pass | none": [
+          "BOUNCE"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "SWAP",
+          "SB",
+          "EXCH",
+          "SWEQ"
+        ],
+        "right_biased | pass | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "right_biased | pass | storage": [
+          "BQ0"
+        ]
+      },
+      "continuation_neff": 2.6129032258064515,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        4,
+        6
+      ]
+    },
+    {
+      "F_min": 0.8040547140312077,
+      "P_cont": 0.5729750848998644,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "balanced | buffer | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "balanced | buffer | storage": [
+          "BQ0"
+        ],
+        "balanced | pass | none": [
+          "ID",
+          "SB",
+          "BOUNCE",
+          "SWEQ"
+        ],
+        "balanced | reroute | none": [
+          "SWAP"
+        ],
+        "right_biased | reroute | none": [
+          "EXCH"
+        ]
+      },
+      "continuation_neff": 3.5217391304347827,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        4,
+        7
+      ]
+    },
+    {
+      "F_min": 0.44910158480359136,
+      "P_cont": 0.43712507137149254,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "inactive | pass | both": [
+          "SWAP",
+          "SWEQ"
+        ],
+        "inactive | pass | none": [
+          "ID",
+          "BOUNCE",
+          "EXCH",
+          "TQ0",
+          "BQ0"
+        ],
+        "inactive | pass | queue": [
+          "TQ"
+        ],
+        "inactive | pass | storage": [
+          "SB"
+        ]
+      },
+      "continuation_neff": 2.6129032258064515,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        4,
+        8
+      ]
+    },
+    {
+      "F_min": 0.5519968464647109,
+      "P_cont": 0.5729750848998644,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "left_biased | pass | both": [
+          "SWAP"
+        ],
+        "left_biased | pass | none": [
+          "ID",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ],
+        "left_biased | pass | queue": [
+          "TQ"
+        ],
+        "left_biased | pass | storage": [
+          "SB"
+        ],
+        "right_biased | pass | none": [
+          "BOUNCE",
+          "EXCH"
+        ]
+      },
+      "continuation_neff": 3.5217391304347827,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        4,
+        9
+      ]
+    },
+    {
+      "F_min": 0.5226919961993788,
+      "P_cont": 0.4674776239446685,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "left_biased | pass | none": [
+          "BOUNCE"
+        ],
+        "right_biased | pass | both": [
+          "SWAP"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "EXCH",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ],
+        "right_biased | pass | queue": [
+          "TQ"
+        ],
+        "right_biased | pass | storage": [
+          "SB"
+        ]
+      },
+      "continuation_neff": 2.7931034482758617,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        4,
+        10
+      ]
+    },
+    {
+      "F_min": 0.4585867574827089,
+      "P_cont": 0.4674776239446685,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "balanced | buffer | queue": [
+          "TQ"
+        ],
+        "balanced | buffer | storage": [
+          "SB"
+        ],
+        "balanced | mixed | both": [
+          "SWAP"
+        ],
+        "balanced | pass | none": [
+          "ID",
+          "BOUNCE",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ],
+        "right_biased | reroute | none": [
+          "EXCH"
+        ]
+      },
+      "continuation_neff": 2.7931034482758617,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        4,
+        11
+      ]
+    },
+    {
+      "F_min": 0.45268329987179867,
+      "P_cont": 0.26751323964103635,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 2,
+      "continuation_classes": {
+        "inactive | pass | none": [
+          "ID",
+          "SB",
+          "BOUNCE",
+          "EXCH",
+          "TQ0",
+          "BQ0"
+        ],
+        "inactive | pass | queue": [
+          "SWAP",
+          "TQ",
+          "SWEQ"
+        ]
+      },
+      "continuation_neff": 1.7999999999999998,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        4,
+        12
+      ]
+    },
+    {
+      "F_min": 1.0081729975182234,
+      "P_cont": 0.40867083067793086,
+      "confusion_label": "true_negative",
+      "continuation_class_count": 3,
+      "continuation_classes": {
+        "left_biased | pass | none": [
+          "ID",
+          "SB",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ],
+        "left_biased | pass | queue": [
+          "SWAP",
+          "TQ"
+        ],
+        "right_biased | pass | none": [
+          "BOUNCE",
+          "EXCH"
+        ]
+      },
+      "continuation_neff": 2.454545454545454,
+      "exists_legal_continuation": false,
+      "input_pair": [
+        4,
+        13
+      ]
+    },
+    {
+      "F_min": 0.9728907426296847,
+      "P_cont": 0.3098805169900223,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 3,
+      "continuation_classes": {
+        "left_biased | pass | none": [
+          "BOUNCE"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "SB",
+          "EXCH",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ],
+        "right_biased | pass | queue": [
+          "SWAP",
+          "TQ"
+        ]
+      },
+      "continuation_neff": 1.975609756097561,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        4,
+        14
+      ]
+    },
+    {
+      "F_min": 0.8330861572370012,
+      "P_cont": 0.33264124026360364,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "balanced | buffer | queue": [
+          "TQ"
+        ],
+        "balanced | mixed | queue": [
+          "SWAP"
+        ],
+        "balanced | pass | none": [
+          "ID",
+          "SB",
+          "BOUNCE",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ],
+        "right_biased | reroute | none": [
+          "EXCH"
+        ]
+      },
+      "continuation_neff": 2.076923076923077,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        4,
+        15
+      ]
+    },
+    {
+      "F_min": 0.9334964522727998,
+      "P_cont": 0.5729750848998644,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "left_biased | pass | none": [
+          "ID",
+          "EXCH",
+          "SWEQ"
+        ],
+        "left_biased | pass | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "left_biased | pass | storage": [
+          "SWAP",
+          "SB",
+          "BQ0"
+        ],
+        "right_biased | pass | none": [
+          "BOUNCE"
+        ]
+      },
+      "continuation_neff": 3.5217391304347827,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        5,
+        0
+      ]
+    },
+    {
+      "F_min": 0.9334964522727998,
+      "P_cont": 0.5729750848998644,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "balanced | pass | none": [
+          "EXCH"
+        ],
+        "left_biased | pass | none": [
+          "ID"
+        ],
+        "left_biased | pass | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "left_biased | pass | storage": [
+          "SWAP",
+          "SB",
+          "BQ0",
+          "SWEQ"
+        ],
+        "right_biased | pass | none": [
+          "BOUNCE"
+        ]
+      },
+      "continuation_neff": 3.5217391304347827,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        5,
+        1
+      ]
+    },
+    {
+      "F_min": 0.9005284957243012,
+      "P_cont": 0.46747762394466863,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 3,
+      "continuation_classes": {
+        "balanced | pass | none": [
+          "ID",
+          "BOUNCE",
+          "EXCH"
+        ],
+        "balanced | pass | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "balanced | pass | storage": [
+          "SWAP",
+          "SB",
+          "BQ0",
+          "SWEQ"
+        ]
+      },
+      "continuation_neff": 2.793103448275862,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        5,
+        2
+      ]
+    },
+    {
+      "F_min": 0.9764883127474413,
+      "P_cont": 0.710549038418717,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "left_biased | buffer | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "left_biased | buffer | storage": [
+          "SB",
+          "BQ0"
+        ],
+        "left_biased | mixed | storage": [
+          "SWAP"
+        ],
+        "left_biased | pass | none": [
+          "ID",
+          "SWEQ"
+        ],
+        "right_biased | reroute | none": [
+          "BOUNCE",
+          "EXCH"
+        ]
+      },
+      "continuation_neff": 4.764705882352941,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        5,
+        3
+      ]
+    },
+    {
+      "F_min": 0.8910433230451836,
+      "P_cont": 0.43712507137149254,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "left_biased | pass | none": [
+          "ID",
+          "SWAP",
+          "SB",
+          "EXCH",
+          "SWEQ"
+        ],
+        "left_biased | pass | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "left_biased | pass | storage": [
+          "BQ0"
+        ],
+        "right_biased | pass | none": [
+          "BOUNCE"
+        ]
+      },
+      "continuation_neff": 2.6129032258064515,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        5,
+        4
+      ]
+    },
+    {
+      "F_min": 0.9334964522727998,
+      "P_cont": 0.5729750848998644,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "balanced | pass | none": [
+          "EXCH"
+        ],
+        "left_biased | pass | none": [
+          "ID",
+          "SWAP",
+          "SB",
+          "SWEQ"
+        ],
+        "left_biased | pass | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "left_biased | pass | storage": [
+          "BQ0"
+        ],
+        "right_biased | pass | none": [
+          "BOUNCE"
+        ]
+      },
+      "continuation_neff": 3.5217391304347827,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        5,
+        5
+      ]
+    },
+    {
+      "F_min": 0.8512793998009741,
+      "P_cont": 0.3098805169900223,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 3,
+      "continuation_classes": {
+        "balanced | pass | none": [
+          "ID",
+          "SWAP",
+          "SB",
+          "BOUNCE",
+          "EXCH",
+          "SWEQ"
+        ],
+        "balanced | pass | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "balanced | pass | storage": [
+          "BQ0"
+        ]
+      },
+      "continuation_neff": 1.975609756097561,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        5,
+        6
+      ]
+    },
+    {
+      "F_min": 0.9606692602343461,
+      "P_cont": 0.6599280703768123,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "left_biased | buffer | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "left_biased | buffer | storage": [
+          "BQ0"
+        ],
+        "left_biased | pass | none": [
+          "ID",
+          "SB",
+          "SWEQ"
+        ],
+        "left_biased | reroute | none": [
+          "SWAP"
+        ],
+        "right_biased | reroute | none": [
+          "BOUNCE",
+          "EXCH"
+        ]
+      },
+      "continuation_neff": 4.2631578947368425,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        5,
+        7
+      ]
+    },
+    {
+      "F_min": 0.9005284957243012,
+      "P_cont": 0.4674776239446685,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "left_biased | pass | both": [
+          "SWAP"
+        ],
+        "left_biased | pass | none": [
+          "ID",
+          "EXCH",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ],
+        "left_biased | pass | queue": [
+          "TQ"
+        ],
+        "left_biased | pass | storage": [
+          "SB"
+        ],
+        "right_biased | pass | none": [
+          "BOUNCE"
+        ]
+      },
+      "continuation_neff": 2.7931034482758617,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        5,
+        8
+      ]
+    },
+    {
+      "F_min": 0.9764883127474413,
+      "P_cont": 0.710549038418717,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 6,
+      "continuation_classes": {
+        "balanced | pass | none": [
+          "EXCH"
+        ],
+        "left_biased | pass | both": [
+          "SWAP",
+          "SWEQ"
+        ],
+        "left_biased | pass | none": [
+          "ID",
+          "TQ0",
+          "BQ0"
+        ],
+        "left_biased | pass | queue": [
+          "TQ"
+        ],
+        "left_biased | pass | storage": [
+          "SB"
+        ],
+        "right_biased | pass | none": [
+          "BOUNCE"
+        ]
+      },
+      "continuation_neff": 4.764705882352941,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        5,
+        9
+      ]
+    },
+    {
+      "F_min": 0.8910433230451836,
+      "P_cont": 0.43712507137149254,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "balanced | pass | both": [
+          "SWAP",
+          "SWEQ"
+        ],
+        "balanced | pass | none": [
+          "ID",
+          "BOUNCE",
+          "EXCH",
+          "TQ0",
+          "BQ0"
+        ],
+        "balanced | pass | queue": [
+          "TQ"
+        ],
+        "balanced | pass | storage": [
+          "SB"
+        ]
+      },
+      "continuation_neff": 2.6129032258064515,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        5,
+        10
+      ]
+    },
+    {
+      "F_min": 0.9334964522727998,
+      "P_cont": 0.5729750848998644,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "left_biased | buffer | queue": [
+          "TQ"
+        ],
+        "left_biased | buffer | storage": [
+          "SB"
+        ],
+        "left_biased | mixed | both": [
+          "SWAP"
+        ],
+        "left_biased | pass | none": [
+          "ID",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ],
+        "right_biased | reroute | none": [
+          "BOUNCE",
+          "EXCH"
+        ]
+      },
+      "continuation_neff": 3.5217391304347827,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        5,
+        11
+      ]
+    },
+    {
+      "F_min": 0.8512793998009741,
+      "P_cont": 0.3098805169900223,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 3,
+      "continuation_classes": {
+        "left_biased | pass | none": [
+          "ID",
+          "SB",
+          "EXCH",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ],
+        "left_biased | pass | queue": [
+          "SWAP",
+          "TQ"
+        ],
+        "right_biased | pass | none": [
+          "BOUNCE"
+        ]
+      },
+      "continuation_neff": 1.975609756097561,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        5,
+        12
+      ]
+    },
+    {
+      "F_min": 1.0407905579903909,
+      "P_cont": 0.5,
+      "confusion_label": "true_negative",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "balanced | pass | none": [
+          "EXCH"
+        ],
+        "left_biased | pass | none": [
+          "ID",
+          "SB",
+          "TQ0",
+          "BQ0"
+        ],
+        "left_biased | pass | queue": [
+          "SWAP",
+          "TQ",
+          "SWEQ"
+        ],
+        "right_biased | pass | none": [
+          "BOUNCE"
+        ]
+      },
+      "continuation_neff": 3.0,
+      "exists_legal_continuation": false,
+      "input_pair": [
+        5,
+        13
+      ]
+    },
+    {
+      "F_min": 0.957759572147904,
+      "P_cont": 0.26751323964103635,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 2,
+      "continuation_classes": {
+        "balanced | pass | none": [
+          "ID",
+          "SB",
+          "BOUNCE",
+          "EXCH",
+          "TQ0",
+          "BQ0"
+        ],
+        "balanced | pass | queue": [
+          "SWAP",
+          "TQ",
+          "SWEQ"
+        ]
+      },
+      "continuation_neff": 1.7999999999999998,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        5,
+        14
+      ]
+    },
+    {
+      "F_min": 0.9279289445295258,
+      "P_cont": 0.43712507137149254,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "left_biased | buffer | queue": [
+          "TQ"
+        ],
+        "left_biased | mixed | queue": [
+          "SWAP"
+        ],
+        "left_biased | pass | none": [
+          "ID",
+          "SB",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ],
+        "right_biased | reroute | none": [
+          "BOUNCE",
+          "EXCH"
+        ]
+      },
+      "continuation_neff": 2.6129032258064515,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        5,
+        15
+      ]
+    },
+    {
+      "F_min": 0.94643490243512,
+      "P_cont": 0.6143781254192888,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "left_biased | pass | none": [
+          "BOUNCE",
+          "EXCH"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "SWEQ"
+        ],
+        "right_biased | pass | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "right_biased | pass | storage": [
+          "SWAP",
+          "SB",
+          "BQ0"
+        ]
+      },
+      "continuation_neff": 3.857142857142857,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        6,
+        0
+      ]
+    },
+    {
+      "F_min": 0.9005284957243012,
+      "P_cont": 0.46747762394466863,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 3,
+      "continuation_classes": {
+        "balanced | pass | none": [
+          "ID",
+          "BOUNCE",
+          "EXCH"
+        ],
+        "balanced | pass | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "balanced | pass | storage": [
+          "SWAP",
+          "SB",
+          "BQ0",
+          "SWEQ"
+        ]
+      },
+      "continuation_neff": 2.793103448275862,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        6,
+        1
+      ]
+    },
+    {
+      "F_min": 0.9334964522727998,
+      "P_cont": 0.5729750848998644,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "balanced | pass | none": [
+          "EXCH"
+        ],
+        "left_biased | pass | none": [
+          "BOUNCE"
+        ],
+        "right_biased | pass | none": [
+          "ID"
+        ],
+        "right_biased | pass | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "right_biased | pass | storage": [
+          "SWAP",
+          "SB",
+          "BQ0",
+          "SWEQ"
+        ]
+      },
+      "continuation_neff": 3.5217391304347827,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        6,
+        2
+      ]
+    },
+    {
+      "F_min": 0.9606692602343461,
+      "P_cont": 0.6599280703768123,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "left_biased | reroute | none": [
+          "BOUNCE"
+        ],
+        "right_biased | buffer | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "right_biased | buffer | storage": [
+          "SB",
+          "BQ0"
+        ],
+        "right_biased | mixed | storage": [
+          "SWAP"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "EXCH",
+          "SWEQ"
+        ]
+      },
+      "continuation_neff": 4.2631578947368425,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        6,
+        3
+      ]
+    },
+    {
+      "F_min": 0.92163751301724,
+      "P_cont": 0.5350264792820728,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "left_biased | pass | none": [
+          "BOUNCE",
+          "EXCH"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "SWAP",
+          "SB",
+          "SWEQ"
+        ],
+        "right_biased | pass | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "right_biased | pass | storage": [
+          "BQ0"
+        ]
+      },
+      "continuation_neff": 3.24,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        6,
+        4
+      ]
+    },
+    {
+      "F_min": 0.8512793998009741,
+      "P_cont": 0.3098805169900223,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 3,
+      "continuation_classes": {
+        "balanced | pass | none": [
+          "ID",
+          "SWAP",
+          "SB",
+          "BOUNCE",
+          "EXCH",
+          "SWEQ"
+        ],
+        "balanced | pass | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "balanced | pass | storage": [
+          "BQ0"
+        ]
+      },
+      "continuation_neff": 1.975609756097561,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        6,
+        5
+      ]
+    },
+    {
+      "F_min": 0.9334964522727998,
+      "P_cont": 0.5729750848998644,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "balanced | pass | none": [
+          "EXCH"
+        ],
+        "left_biased | pass | none": [
+          "BOUNCE"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "SWAP",
+          "SB",
+          "SWEQ"
+        ],
+        "right_biased | pass | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "right_biased | pass | storage": [
+          "BQ0"
+        ]
+      },
+      "continuation_neff": 3.5217391304347827,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        6,
+        6
+      ]
+    },
+    {
+      "F_min": 0.9334964522727998,
+      "P_cont": 0.5729750848998644,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "left_biased | reroute | none": [
+          "BOUNCE"
+        ],
+        "right_biased | buffer | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "right_biased | buffer | storage": [
+          "BQ0"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "SB",
+          "EXCH",
+          "SWEQ"
+        ],
+        "right_biased | reroute | none": [
+          "SWAP"
+        ]
+      },
+      "continuation_neff": 3.5217391304347827,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        6,
+        7
+      ]
+    },
+    {
+      "F_min": 0.9334964522727998,
+      "P_cont": 0.5729750848998644,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "left_biased | pass | none": [
+          "BOUNCE",
+          "EXCH"
+        ],
+        "right_biased | pass | both": [
+          "SWAP"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ],
+        "right_biased | pass | queue": [
+          "TQ"
+        ],
+        "right_biased | pass | storage": [
+          "SB"
+        ]
+      },
+      "continuation_neff": 3.5217391304347827,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        6,
+        8
+      ]
+    },
+    {
+      "F_min": 0.8910433230451836,
+      "P_cont": 0.43712507137149254,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "balanced | pass | both": [
+          "SWAP",
+          "SWEQ"
+        ],
+        "balanced | pass | none": [
+          "ID",
+          "BOUNCE",
+          "EXCH",
+          "TQ0",
+          "BQ0"
+        ],
+        "balanced | pass | queue": [
+          "TQ"
+        ],
+        "balanced | pass | storage": [
+          "SB"
+        ]
+      },
+      "continuation_neff": 2.6129032258064515,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        6,
+        9
+      ]
+    },
+    {
+      "F_min": 0.9764883127474413,
+      "P_cont": 0.710549038418717,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 6,
+      "continuation_classes": {
+        "balanced | pass | none": [
+          "EXCH"
+        ],
+        "left_biased | pass | none": [
+          "BOUNCE"
+        ],
+        "right_biased | pass | both": [
+          "SWAP",
+          "SWEQ"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "TQ0",
+          "BQ0"
+        ],
+        "right_biased | pass | queue": [
+          "TQ"
+        ],
+        "right_biased | pass | storage": [
+          "SB"
+        ]
+      },
+      "continuation_neff": 4.764705882352941,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        6,
+        10
+      ]
+    },
+    {
+      "F_min": 0.9005284957243012,
+      "P_cont": 0.4674776239446685,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "left_biased | reroute | none": [
+          "BOUNCE"
+        ],
+        "right_biased | buffer | queue": [
+          "TQ"
+        ],
+        "right_biased | buffer | storage": [
+          "SB"
+        ],
+        "right_biased | mixed | both": [
+          "SWAP"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "EXCH",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ]
+      },
+      "continuation_neff": 2.7931034482758617,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        6,
+        11
+      ]
+    },
+    {
+      "F_min": 0.8821513728284456,
+      "P_cont": 0.40867083067793086,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 3,
+      "continuation_classes": {
+        "left_biased | pass | none": [
+          "BOUNCE",
+          "EXCH"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "SB",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ],
+        "right_biased | pass | queue": [
+          "SWAP",
+          "TQ"
+        ]
+      },
+      "continuation_neff": 2.454545454545454,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        6,
+        12
+      ]
+    },
+    {
+      "F_min": 0.957759572147904,
+      "P_cont": 0.26751323964103635,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 2,
+      "continuation_classes": {
+        "balanced | pass | none": [
+          "ID",
+          "SB",
+          "BOUNCE",
+          "EXCH",
+          "TQ0",
+          "BQ0"
+        ],
+        "balanced | pass | queue": [
+          "SWAP",
+          "TQ",
+          "SWEQ"
+        ]
+      },
+      "continuation_neff": 1.7999999999999998,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        6,
+        13
+      ]
+    },
+    {
+      "F_min": 1.0407905579903909,
+      "P_cont": 0.5,
+      "confusion_label": "true_negative",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "balanced | pass | none": [
+          "EXCH"
+        ],
+        "left_biased | pass | none": [
+          "BOUNCE"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "SB",
+          "TQ0",
+          "BQ0"
+        ],
+        "right_biased | pass | queue": [
+          "SWAP",
+          "TQ",
+          "SWEQ"
+        ]
+      },
+      "continuation_neff": 3.0,
+      "exists_legal_continuation": false,
+      "input_pair": [
+        6,
+        14
+      ]
+    },
+    {
+      "F_min": 0.8952777473083104,
+      "P_cont": 0.33264124026360364,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "left_biased | reroute | none": [
+          "BOUNCE"
+        ],
+        "right_biased | buffer | queue": [
+          "TQ"
+        ],
+        "right_biased | mixed | queue": [
+          "SWAP"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "SB",
+          "EXCH",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ]
+      },
+      "continuation_neff": 2.076923076923077,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        6,
+        15
+      ]
+    },
+    {
+      "F_min": 0.8312275219927537,
+      "P_cont": 0.6599280703768123,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "balanced | buffer | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "balanced | buffer | storage": [
+          "SB",
+          "BQ0"
+        ],
+        "balanced | mixed | storage": [
+          "SWAP"
+        ],
+        "balanced | pass | none": [
+          "ID",
+          "BOUNCE",
+          "SWEQ"
+        ],
+        "left_biased | reroute | none": [
+          "EXCH"
+        ]
+      },
+      "continuation_neff": 4.2631578947368425,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        7,
+        0
+      ]
+    },
+    {
+      "F_min": 0.8681131434770959,
+      "P_cont": 0.6599280703768123,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "left_biased | buffer | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "left_biased | buffer | storage": [
+          "SB",
+          "BQ0"
+        ],
+        "left_biased | mixed | storage": [
+          "SWAP"
+        ],
+        "left_biased | pass | none": [
+          "ID",
+          "EXCH",
+          "SWEQ"
+        ],
+        "right_biased | reroute | none": [
+          "BOUNCE"
+        ]
+      },
+      "continuation_neff": 4.2631578947368425,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        7,
+        1
+      ]
+    },
+    {
+      "F_min": 0.8839321959901911,
+      "P_cont": 0.710549038418717,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "left_biased | reroute | none": [
+          "BOUNCE",
+          "EXCH"
+        ],
+        "right_biased | buffer | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "right_biased | buffer | storage": [
+          "SB",
+          "BQ0"
+        ],
+        "right_biased | mixed | storage": [
+          "SWAP"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "SWEQ"
+        ]
+      },
+      "continuation_neff": 4.764705882352941,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        7,
+        2
+      ]
+    },
+    {
+      "F_min": 0.9005284957243012,
+      "P_cont": 0.46747762394466863,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 3,
+      "continuation_classes": {
+        "balanced | buffer | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "balanced | buffer | storage": [
+          "SWAP",
+          "SB",
+          "BQ0",
+          "SWEQ"
+        ],
+        "balanced | pass | none": [
+          "ID",
+          "BOUNCE",
+          "EXCH"
+        ]
+      },
+      "continuation_neff": 2.793103448275862,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        7,
+        3
+      ]
+    },
+    {
+      "F_min": 0.8040547140312077,
+      "P_cont": 0.5729750848998644,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "balanced | buffer | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "balanced | buffer | storage": [
+          "BQ0"
+        ],
+        "balanced | pass | none": [
+          "ID",
+          "SB",
+          "BOUNCE",
+          "SWEQ"
+        ],
+        "balanced | reroute | none": [
+          "SWAP"
+        ],
+        "left_biased | reroute | none": [
+          "EXCH"
+        ]
+      },
+      "continuation_neff": 3.5217391304347827,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        7,
+        4
+      ]
+    },
+    {
+      "F_min": 0.9334964522727998,
+      "P_cont": 0.5729750848998644,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "left_biased | buffer | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "left_biased | buffer | storage": [
+          "BQ0"
+        ],
+        "left_biased | pass | none": [
+          "ID",
+          "SB",
+          "EXCH",
+          "SWEQ"
+        ],
+        "left_biased | reroute | none": [
+          "SWAP"
+        ],
+        "right_biased | reroute | none": [
+          "BOUNCE"
+        ]
+      },
+      "continuation_neff": 3.5217391304347827,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        7,
+        5
+      ]
+    },
+    {
+      "F_min": 0.9606692602343461,
+      "P_cont": 0.6599280703768123,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "left_biased | reroute | none": [
+          "BOUNCE",
+          "EXCH"
+        ],
+        "right_biased | buffer | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "right_biased | buffer | storage": [
+          "BQ0"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "SB",
+          "SWEQ"
+        ],
+        "right_biased | reroute | none": [
+          "SWAP"
+        ]
+      },
+      "continuation_neff": 4.2631578947368425,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        7,
+        6
+      ]
+    },
+    {
+      "F_min": 0.8512793998009741,
+      "P_cont": 0.3098805169900223,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 3,
+      "continuation_classes": {
+        "balanced | buffer | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "balanced | buffer | storage": [
+          "BQ0"
+        ],
+        "balanced | pass | none": [
+          "ID",
+          "SWAP",
+          "SB",
+          "BOUNCE",
+          "EXCH",
+          "SWEQ"
+        ]
+      },
+      "continuation_neff": 1.975609756097561,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        7,
+        7
+      ]
+    },
+    {
+      "F_min": 0.7710867574827088,
+      "P_cont": 0.4674776239446685,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "balanced | buffer | queue": [
+          "TQ"
+        ],
+        "balanced | buffer | storage": [
+          "SB"
+        ],
+        "balanced | mixed | both": [
+          "SWAP"
+        ],
+        "balanced | pass | none": [
+          "ID",
+          "BOUNCE",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ],
+        "left_biased | reroute | none": [
+          "EXCH"
+        ]
+      },
+      "continuation_neff": 2.7931034482758617,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        7,
+        8
+      ]
+    },
+    {
+      "F_min": 0.807972378967051,
+      "P_cont": 0.4674776239446685,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "left_biased | buffer | queue": [
+          "TQ"
+        ],
+        "left_biased | buffer | storage": [
+          "SB"
+        ],
+        "left_biased | mixed | both": [
+          "SWAP"
+        ],
+        "left_biased | pass | none": [
+          "ID",
+          "EXCH",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ],
+        "right_biased | reroute | none": [
+          "BOUNCE"
+        ]
+      },
+      "continuation_neff": 2.7931034482758617,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        7,
+        9
+      ]
+    },
+    {
+      "F_min": 0.8409403355155498,
+      "P_cont": 0.5729750848998644,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "left_biased | reroute | none": [
+          "BOUNCE",
+          "EXCH"
+        ],
+        "right_biased | buffer | queue": [
+          "TQ"
+        ],
+        "right_biased | buffer | storage": [
+          "SB"
+        ],
+        "right_biased | mixed | both": [
+          "SWAP"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ]
+      },
+      "continuation_neff": 3.5217391304347827,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        7,
+        10
+      ]
+    },
+    {
+      "F_min": 0.8910433230451836,
+      "P_cont": 0.43712507137149254,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "balanced | buffer | both": [
+          "SWAP",
+          "SWEQ"
+        ],
+        "balanced | buffer | queue": [
+          "TQ"
+        ],
+        "balanced | buffer | storage": [
+          "SB"
+        ],
+        "balanced | pass | none": [
+          "ID",
+          "BOUNCE",
+          "EXCH",
+          "TQ0",
+          "BQ0"
+        ]
+      },
+      "continuation_neff": 2.6129032258064515,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        7,
+        11
+      ]
+    },
+    {
+      "F_min": 0.7289503875823761,
+      "P_cont": 0.33264124026360364,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "balanced | buffer | queue": [
+          "TQ"
+        ],
+        "balanced | mixed | queue": [
+          "SWAP"
+        ],
+        "balanced | pass | none": [
+          "ID",
+          "SB",
+          "BOUNCE",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ],
+        "left_biased | reroute | none": [
+          "EXCH"
+        ]
+      },
+      "continuation_neff": 2.076923076923077,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        7,
+        12
+      ]
+    },
+    {
+      "F_min": 0.9810195723702495,
+      "P_cont": 0.33264124026360364,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "left_biased | buffer | queue": [
+          "TQ"
+        ],
+        "left_biased | mixed | queue": [
+          "SWAP"
+        ],
+        "left_biased | pass | none": [
+          "ID",
+          "SB",
+          "EXCH",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ],
+        "right_biased | reroute | none": [
+          "BOUNCE"
+        ]
+      },
+      "continuation_neff": 2.076923076923077,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        7,
+        13
+      ]
+    },
+    {
+      "F_min": 1.0183352263373526,
+      "P_cont": 0.43712507137149254,
+      "confusion_label": "true_negative",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "left_biased | reroute | none": [
+          "BOUNCE",
+          "EXCH"
+        ],
+        "right_biased | buffer | queue": [
+          "TQ"
+        ],
+        "right_biased | mixed | queue": [
+          "SWAP"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "SB",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ]
+      },
+      "continuation_neff": 2.6129032258064515,
+      "exists_legal_continuation": false,
+      "input_pair": [
+        7,
+        14
+      ]
+    },
+    {
+      "F_min": 0.9577595721479041,
+      "P_cont": 0.26751323964103635,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 2,
+      "continuation_classes": {
+        "balanced | buffer | queue": [
+          "SWAP",
+          "TQ",
+          "SWEQ"
+        ],
+        "balanced | pass | none": [
+          "ID",
+          "SB",
+          "BOUNCE",
+          "EXCH",
+          "TQ0",
+          "BQ0"
+        ]
+      },
+      "continuation_neff": 1.7999999999999998,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        7,
+        15
+      ]
+    },
+    {
+      "F_min": 0.07430923323362121,
+      "P_cont": 0.26751323964103635,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 2,
+      "continuation_classes": {
+        "inactive | pass | none": [
+          "ID",
+          "SB",
+          "BOUNCE",
+          "EXCH",
+          "TQ0",
+          "BQ0"
+        ],
+        "inactive | pass | queue": [
+          "SWAP",
+          "TQ",
+          "SWEQ"
+        ]
+      },
+      "continuation_neff": 1.7999999999999998,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        8,
+        0
+      ]
+    },
+    {
+      "F_min": 0.45572109826275653,
+      "P_cont": 0.40867083067793086,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 3,
+      "continuation_classes": {
+        "left_biased | pass | none": [
+          "ID",
+          "SB",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ],
+        "left_biased | pass | queue": [
+          "SWAP",
+          "TQ"
+        ],
+        "right_biased | pass | none": [
+          "BOUNCE",
+          "EXCH"
+        ]
+      },
+      "continuation_neff": 2.454545454545454,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        8,
+        1
+      ]
+    },
+    {
+      "F_min": 0.43102351984077936,
+      "P_cont": 0.3098805169900223,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 3,
+      "continuation_classes": {
+        "left_biased | pass | none": [
+          "BOUNCE"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "SB",
+          "EXCH",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ],
+        "right_biased | pass | queue": [
+          "SWAP",
+          "TQ"
+        ]
+      },
+      "continuation_neff": 1.975609756097561,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        8,
+        2
+      ]
+    },
+    {
+      "F_min": 0.3331603100659009,
+      "P_cont": 0.33264124026360364,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "balanced | buffer | queue": [
+          "TQ"
+        ],
+        "balanced | mixed | queue": [
+          "SWAP"
+        ],
+        "balanced | pass | none": [
+          "ID",
+          "SB",
+          "BOUNCE",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ],
+        "right_biased | reroute | none": [
+          "EXCH"
+        ]
+      },
+      "continuation_neff": 2.076923076923077,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        8,
+        3
+      ]
+    },
+    {
+      "F_min": 0.44910158480359136,
+      "P_cont": 0.43712507137149254,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "inactive | pass | both": [
+          "SWAP",
+          "SWEQ"
+        ],
+        "inactive | pass | none": [
+          "ID",
+          "BOUNCE",
+          "EXCH",
+          "TQ0",
+          "BQ0"
+        ],
+        "inactive | pass | queue": [
+          "TQ"
+        ],
+        "inactive | pass | storage": [
+          "SB"
+        ]
+      },
+      "continuation_neff": 2.6129032258064515,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        8,
+        4
+      ]
+    },
+    {
+      "F_min": 0.9334964522727998,
+      "P_cont": 0.5729750848998644,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "left_biased | pass | both": [
+          "SWAP"
+        ],
+        "left_biased | pass | none": [
+          "ID",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ],
+        "left_biased | pass | queue": [
+          "TQ"
+        ],
+        "left_biased | pass | storage": [
+          "SB"
+        ],
+        "right_biased | pass | none": [
+          "BOUNCE",
+          "EXCH"
+        ]
+      },
+      "continuation_neff": 3.5217391304347827,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        8,
+        5
+      ]
+    },
+    {
+      "F_min": 0.9005284957243012,
+      "P_cont": 0.4674776239446685,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "left_biased | pass | none": [
+          "BOUNCE"
+        ],
+        "right_biased | pass | both": [
+          "SWAP"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "EXCH",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ],
+        "right_biased | pass | queue": [
+          "TQ"
+        ],
+        "right_biased | pass | storage": [
+          "SB"
+        ]
+      },
+      "continuation_neff": 2.7931034482758617,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        8,
+        6
+      ]
+    },
+    {
+      "F_min": 0.7710867574827088,
+      "P_cont": 0.4674776239446685,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "balanced | buffer | queue": [
+          "TQ"
+        ],
+        "balanced | buffer | storage": [
+          "SB"
+        ],
+        "balanced | mixed | both": [
+          "SWAP"
+        ],
+        "balanced | pass | none": [
+          "ID",
+          "BOUNCE",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ],
+        "right_biased | reroute | none": [
+          "EXCH"
+        ]
+      },
+      "continuation_neff": 2.7931034482758617,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        8,
+        7
+      ]
+    },
+    {
+      "F_min": 0.053622855434101405,
+      "P_cont": 0.19304227956276507,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 2,
+      "continuation_classes": {
+        "inactive | pass | none": [
+          "ID",
+          "SWAP",
+          "SB",
+          "BOUNCE",
+          "EXCH",
+          "BQ0",
+          "SWEQ"
+        ],
+        "inactive | pass | queue": [
+          "TQ",
+          "TQ0"
+        ]
+      },
+      "continuation_neff": 1.5283018867924527,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        8,
+        8
+      ]
+    },
+    {
+      "F_min": 0.5063567758475073,
+      "P_cont": 0.40867083067793086,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 3,
+      "continuation_classes": {
+        "left_biased | pass | none": [
+          "ID",
+          "SWAP",
+          "SB",
+          "BQ0",
+          "SWEQ"
+        ],
+        "left_biased | pass | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "right_biased | pass | none": [
+          "BOUNCE",
+          "EXCH"
+        ]
+      },
+      "continuation_neff": 2.454545454545454,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        8,
+        9
+      ]
+    },
+    {
+      "F_min": 0.4789150220453104,
+      "P_cont": 0.3098805169900223,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 3,
+      "continuation_classes": {
+        "left_biased | pass | none": [
+          "BOUNCE"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "SWAP",
+          "SB",
+          "EXCH",
+          "BQ0",
+          "SWEQ"
+        ],
+        "right_biased | pass | queue": [
+          "TQ",
+          "TQ0"
+        ]
+      },
+      "continuation_neff": 1.975609756097561,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        8,
+        10
+      ]
+    },
+    {
+      "F_min": 0.39920140871430343,
+      "P_cont": 0.43712507137149254,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "balanced | buffer | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "balanced | pass | none": [
+          "ID",
+          "SB",
+          "BOUNCE",
+          "BQ0",
+          "SWEQ"
+        ],
+        "balanced | reroute | none": [
+          "SWAP"
+        ],
+        "right_biased | reroute | none": [
+          "EXCH"
+        ]
+      },
+      "continuation_neff": 2.6129032258064515,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        8,
+        11
+      ]
+    },
+    {
+      "F_min": 0.5240991514088101,
+      "P_cont": 0.46747762394466863,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 3,
+      "continuation_classes": {
+        "inactive | pass | none": [
+          "ID",
+          "BOUNCE",
+          "EXCH",
+          "BQ0"
+        ],
+        "inactive | pass | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "inactive | pass | storage": [
+          "SWAP",
+          "SB",
+          "SWEQ"
+        ]
+      },
+      "continuation_neff": 2.793103448275862,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        8,
+        12
+      ]
+    },
+    {
+      "F_min": 1.08163988849728,
+      "P_cont": 0.6143781254192888,
+      "confusion_label": "true_negative",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "left_biased | pass | none": [
+          "ID",
+          "BQ0",
+          "SWEQ"
+        ],
+        "left_biased | pass | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "left_biased | pass | storage": [
+          "SWAP",
+          "SB"
+        ],
+        "right_biased | pass | none": [
+          "BOUNCE",
+          "EXCH"
+        ]
+      },
+      "continuation_neff": 3.857142857142857,
+      "exists_legal_continuation": false,
+      "input_pair": [
+        8,
+        13
+      ]
+    },
+    {
+      "F_min": 1.0533000148768457,
+      "P_cont": 0.5350264792820728,
+      "confusion_label": "true_negative",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "left_biased | pass | none": [
+          "BOUNCE"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "EXCH",
+          "BQ0",
+          "SWEQ"
+        ],
+        "right_biased | pass | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "right_biased | pass | storage": [
+          "SWAP",
+          "SB"
+        ]
+      },
+      "continuation_neff": 3.24,
+      "exists_legal_continuation": false,
+      "input_pair": [
+        8,
+        14
+      ]
+    },
+    {
+      "F_min": 0.918919673178523,
+      "P_cont": 0.5729750848998644,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "balanced | buffer | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "balanced | buffer | storage": [
+          "SB"
+        ],
+        "balanced | mixed | storage": [
+          "SWAP"
+        ],
+        "balanced | pass | none": [
+          "ID",
+          "BOUNCE",
+          "BQ0",
+          "SWEQ"
+        ],
+        "right_biased | reroute | none": [
+          "EXCH"
+        ]
+      },
+      "continuation_neff": 3.5217391304347827,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        8,
+        15
+      ]
+    },
+    {
+      "F_min": 0.4789150220453104,
+      "P_cont": 0.3098805169900223,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 3,
+      "continuation_classes": {
+        "left_biased | pass | none": [
+          "ID",
+          "SB",
+          "EXCH",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ],
+        "left_biased | pass | queue": [
+          "SWAP",
+          "TQ"
+        ],
+        "right_biased | pass | none": [
+          "BOUNCE"
+        ]
+      },
+      "continuation_neff": 1.975609756097561,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        9,
+        0
+      ]
+    },
+    {
+      "F_min": 0.5317259895480819,
+      "P_cont": 0.5,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "balanced | pass | none": [
+          "EXCH"
+        ],
+        "left_biased | pass | none": [
+          "ID",
+          "SB",
+          "TQ0",
+          "BQ0"
+        ],
+        "left_biased | pass | queue": [
+          "SWAP",
+          "TQ",
+          "SWEQ"
+        ],
+        "right_biased | pass | none": [
+          "BOUNCE"
+        ]
+      },
+      "continuation_neff": 3.0,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        9,
+        1
+      ]
+    },
+    {
+      "F_min": 0.46714633389281424,
+      "P_cont": 0.26751323964103635,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 2,
+      "continuation_classes": {
+        "balanced | pass | none": [
+          "ID",
+          "SB",
+          "BOUNCE",
+          "EXCH",
+          "TQ0",
+          "BQ0"
+        ],
+        "balanced | pass | queue": [
+          "SWAP",
+          "TQ",
+          "SWEQ"
+        ]
+      },
+      "continuation_neff": 1.7999999999999998,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        9,
+        2
+      ]
+    },
+    {
+      "F_min": 0.6092812678428732,
+      "P_cont": 0.43712507137149254,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "left_biased | buffer | queue": [
+          "TQ"
+        ],
+        "left_biased | mixed | queue": [
+          "SWAP"
+        ],
+        "left_biased | pass | none": [
+          "ID",
+          "SB",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ],
+        "right_biased | reroute | none": [
+          "BOUNCE",
+          "EXCH"
+        ]
+      },
+      "continuation_neff": 2.6129032258064515,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        9,
+        3
+      ]
+    },
+    {
+      "F_min": 0.5226919961993788,
+      "P_cont": 0.4674776239446685,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "left_biased | pass | both": [
+          "SWAP"
+        ],
+        "left_biased | pass | none": [
+          "ID",
+          "EXCH",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ],
+        "left_biased | pass | queue": [
+          "TQ"
+        ],
+        "left_biased | pass | storage": [
+          "SB"
+        ],
+        "right_biased | pass | none": [
+          "BOUNCE"
+        ]
+      },
+      "continuation_neff": 2.7931034482758617,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        9,
+        4
+      ]
+    },
+    {
+      "F_min": 0.9764883127474413,
+      "P_cont": 0.710549038418717,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 6,
+      "continuation_classes": {
+        "balanced | pass | none": [
+          "EXCH"
+        ],
+        "left_biased | pass | both": [
+          "SWAP",
+          "SWEQ"
+        ],
+        "left_biased | pass | none": [
+          "ID",
+          "TQ0",
+          "BQ0"
+        ],
+        "left_biased | pass | queue": [
+          "TQ"
+        ],
+        "left_biased | pass | storage": [
+          "SB"
+        ],
+        "right_biased | pass | none": [
+          "BOUNCE"
+        ]
+      },
+      "continuation_neff": 4.764705882352941,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        9,
+        5
+      ]
+    },
+    {
+      "F_min": 0.8910433230451836,
+      "P_cont": 0.43712507137149254,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "balanced | pass | both": [
+          "SWAP",
+          "SWEQ"
+        ],
+        "balanced | pass | none": [
+          "ID",
+          "BOUNCE",
+          "EXCH",
+          "TQ0",
+          "BQ0"
+        ],
+        "balanced | pass | queue": [
+          "TQ"
+        ],
+        "balanced | pass | storage": [
+          "SB"
+        ]
+      },
+      "continuation_neff": 2.6129032258064515,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        9,
+        6
+      ]
+    },
+    {
+      "F_min": 0.8409403355155498,
+      "P_cont": 0.5729750848998644,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "left_biased | buffer | queue": [
+          "TQ"
+        ],
+        "left_biased | buffer | storage": [
+          "SB"
+        ],
+        "left_biased | mixed | both": [
+          "SWAP"
+        ],
+        "left_biased | pass | none": [
+          "ID",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ],
+        "right_biased | reroute | none": [
+          "BOUNCE",
+          "EXCH"
+        ]
+      },
+      "continuation_neff": 3.5217391304347827,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        9,
+        7
+      ]
+    },
+    {
+      "F_min": 0.4789150220453104,
+      "P_cont": 0.3098805169900223,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 3,
+      "continuation_classes": {
+        "left_biased | pass | none": [
+          "ID",
+          "SWAP",
+          "SB",
+          "EXCH",
+          "BQ0",
+          "SWEQ"
+        ],
+        "left_biased | pass | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "right_biased | pass | none": [
+          "BOUNCE"
+        ]
+      },
+      "continuation_neff": 1.975609756097561,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        9,
+        8
+      ]
+    },
+    {
+      "F_min": 0.5142607315957187,
+      "P_cont": 0.43712507137149254,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "balanced | pass | none": [
+          "EXCH"
+        ],
+        "left_biased | pass | none": [
+          "ID",
+          "SWAP",
+          "SB",
+          "BQ0",
+          "SWEQ"
+        ],
+        "left_biased | pass | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "right_biased | pass | none": [
+          "BOUNCE"
+        ]
+      },
+      "continuation_neff": 2.6129032258064515,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        9,
+        9
+      ]
+    },
+    {
+      "F_min": 0.4464599560932945,
+      "P_cont": 0.19304227956276507,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 2,
+      "continuation_classes": {
+        "balanced | pass | none": [
+          "ID",
+          "SWAP",
+          "SB",
+          "BOUNCE",
+          "EXCH",
+          "BQ0",
+          "SWEQ"
+        ],
+        "balanced | pass | queue": [
+          "TQ",
+          "TQ0"
+        ]
+      },
+      "continuation_neff": 1.5283018867924527,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        9,
+        10
+      ]
+    },
+    {
+      "F_min": 0.6803444560153243,
+      "P_cont": 0.5350264792820728,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "left_biased | buffer | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "left_biased | pass | none": [
+          "ID",
+          "SB",
+          "BQ0",
+          "SWEQ"
+        ],
+        "left_biased | reroute | none": [
+          "SWAP"
+        ],
+        "right_biased | reroute | none": [
+          "BOUNCE",
+          "EXCH"
+        ]
+      },
+      "continuation_neff": 3.24,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        9,
+        11
+      ]
+    },
+    {
+      "F_min": 0.5482237426007402,
+      "P_cont": 0.5350264792820728,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "left_biased | pass | none": [
+          "ID",
+          "EXCH",
+          "BQ0",
+          "SWEQ"
+        ],
+        "left_biased | pass | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "left_biased | pass | storage": [
+          "SWAP",
+          "SB"
+        ],
+        "right_biased | pass | none": [
+          "BOUNCE"
+        ]
+      },
+      "continuation_neff": 3.24,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        9,
+        12
+      ]
+    },
+    {
+      "F_min": 1.0979077259821097,
+      "P_cont": 0.6599280703768123,
+      "confusion_label": "true_negative",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "balanced | pass | none": [
+          "EXCH"
+        ],
+        "left_biased | pass | none": [
+          "ID",
+          "BQ0"
+        ],
+        "left_biased | pass | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "left_biased | pass | storage": [
+          "SWAP",
+          "SB",
+          "SWEQ"
+        ],
+        "right_biased | pass | none": [
+          "BOUNCE"
+        ]
+      },
+      "continuation_neff": 4.2631578947368425,
+      "exists_legal_continuation": false,
+      "input_pair": [
+        9,
+        13
+      ]
+    },
+    {
+      "F_min": 1.0291754236849155,
+      "P_cont": 0.46747762394466863,
+      "confusion_label": "true_negative",
+      "continuation_class_count": 3,
+      "continuation_classes": {
+        "balanced | pass | none": [
+          "ID",
+          "BOUNCE",
+          "EXCH",
+          "BQ0"
+        ],
+        "balanced | pass | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "balanced | pass | storage": [
+          "SWAP",
+          "SB",
+          "SWEQ"
+        ]
+      },
+      "continuation_neff": 2.793103448275862,
+      "exists_legal_continuation": false,
+      "input_pair": [
+        9,
+        14
+      ]
+    },
+    {
+      "F_min": 0.9921293068309668,
+      "P_cont": 0.6599280703768123,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "left_biased | buffer | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "left_biased | buffer | storage": [
+          "SB"
+        ],
+        "left_biased | mixed | storage": [
+          "SWAP"
+        ],
+        "left_biased | pass | none": [
+          "ID",
+          "BQ0",
+          "SWEQ"
+        ],
+        "right_biased | reroute | none": [
+          "BOUNCE",
+          "EXCH"
+        ]
+      },
+      "continuation_neff": 4.2631578947368425,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        9,
+        15
+      ]
+    },
+    {
+      "F_min": 0.5063567758475073,
+      "P_cont": 0.40867083067793086,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 3,
+      "continuation_classes": {
+        "left_biased | pass | none": [
+          "BOUNCE",
+          "EXCH"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "SB",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ],
+        "right_biased | pass | queue": [
+          "SWAP",
+          "TQ"
+        ]
+      },
+      "continuation_neff": 2.454545454545454,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        10,
+        0
+      ]
+    },
+    {
+      "F_min": 0.46714633389281424,
+      "P_cont": 0.26751323964103635,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 2,
+      "continuation_classes": {
+        "balanced | pass | none": [
+          "ID",
+          "SB",
+          "BOUNCE",
+          "EXCH",
+          "TQ0",
+          "BQ0"
+        ],
+        "balanced | pass | queue": [
+          "SWAP",
+          "TQ",
+          "SWEQ"
+        ]
+      },
+      "continuation_neff": 1.7999999999999998,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        10,
+        1
+      ]
+    },
+    {
+      "F_min": 0.5317259895480819,
+      "P_cont": 0.5,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "balanced | pass | none": [
+          "EXCH"
+        ],
+        "left_biased | pass | none": [
+          "BOUNCE"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "SB",
+          "TQ0",
+          "BQ0"
+        ],
+        "right_biased | pass | queue": [
+          "SWAP",
+          "TQ",
+          "SWEQ"
+        ]
+      },
+      "continuation_neff": 3.0,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        10,
+        2
+      ]
+    },
+    {
+      "F_min": 0.5831603100659009,
+      "P_cont": 0.33264124026360364,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "left_biased | reroute | none": [
+          "BOUNCE"
+        ],
+        "right_biased | buffer | queue": [
+          "TQ"
+        ],
+        "right_biased | mixed | queue": [
+          "SWAP"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "SB",
+          "EXCH",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ]
+      },
+      "continuation_neff": 2.076923076923077,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        10,
+        3
+      ]
+    },
+    {
+      "F_min": 0.5519968464647109,
+      "P_cont": 0.5729750848998644,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "left_biased | pass | none": [
+          "BOUNCE",
+          "EXCH"
+        ],
+        "right_biased | pass | both": [
+          "SWAP"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ],
+        "right_biased | pass | queue": [
+          "TQ"
+        ],
+        "right_biased | pass | storage": [
+          "SB"
+        ]
+      },
+      "continuation_neff": 3.5217391304347827,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        10,
+        4
+      ]
+    },
+    {
+      "F_min": 0.8910433230451836,
+      "P_cont": 0.43712507137149254,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "balanced | pass | both": [
+          "SWAP",
+          "SWEQ"
+        ],
+        "balanced | pass | none": [
+          "ID",
+          "BOUNCE",
+          "EXCH",
+          "TQ0",
+          "BQ0"
+        ],
+        "balanced | pass | queue": [
+          "TQ"
+        ],
+        "balanced | pass | storage": [
+          "SB"
+        ]
+      },
+      "continuation_neff": 2.6129032258064515,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        10,
+        5
+      ]
+    },
+    {
+      "F_min": 0.9764883127474413,
+      "P_cont": 0.710549038418717,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 6,
+      "continuation_classes": {
+        "balanced | pass | none": [
+          "EXCH"
+        ],
+        "left_biased | pass | none": [
+          "BOUNCE"
+        ],
+        "right_biased | pass | both": [
+          "SWAP",
+          "SWEQ"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "TQ0",
+          "BQ0"
+        ],
+        "right_biased | pass | queue": [
+          "TQ"
+        ],
+        "right_biased | pass | storage": [
+          "SB"
+        ]
+      },
+      "continuation_neff": 4.764705882352941,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        10,
+        6
+      ]
+    },
+    {
+      "F_min": 0.807972378967051,
+      "P_cont": 0.4674776239446685,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "left_biased | reroute | none": [
+          "BOUNCE"
+        ],
+        "right_biased | buffer | queue": [
+          "TQ"
+        ],
+        "right_biased | buffer | storage": [
+          "SB"
+        ],
+        "right_biased | mixed | both": [
+          "SWAP"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "EXCH",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ]
+      },
+      "continuation_neff": 2.7931034482758617,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        10,
+        7
+      ]
+    },
+    {
+      "F_min": 0.5063567758475073,
+      "P_cont": 0.40867083067793086,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 3,
+      "continuation_classes": {
+        "left_biased | pass | none": [
+          "BOUNCE",
+          "EXCH"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "SWAP",
+          "SB",
+          "BQ0",
+          "SWEQ"
+        ],
+        "right_biased | pass | queue": [
+          "TQ",
+          "TQ0"
+        ]
+      },
+      "continuation_neff": 2.454545454545454,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        10,
+        8
+      ]
+    },
+    {
+      "F_min": 0.4464599560932945,
+      "P_cont": 0.19304227956276507,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 2,
+      "continuation_classes": {
+        "balanced | pass | none": [
+          "ID",
+          "SWAP",
+          "SB",
+          "BOUNCE",
+          "EXCH",
+          "BQ0",
+          "SWEQ"
+        ],
+        "balanced | pass | queue": [
+          "TQ",
+          "TQ0"
+        ]
+      },
+      "continuation_neff": 1.5283018867924527,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        10,
+        9
+      ]
+    },
+    {
+      "F_min": 0.5142607315957187,
+      "P_cont": 0.43712507137149254,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "balanced | pass | none": [
+          "EXCH"
+        ],
+        "left_biased | pass | none": [
+          "BOUNCE"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "SWAP",
+          "SB",
+          "BQ0",
+          "SWEQ"
+        ],
+        "right_biased | pass | queue": [
+          "TQ",
+          "TQ0"
+        ]
+      },
+      "continuation_neff": 2.6129032258064515,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        10,
+        10
+      ]
+    },
+    {
+      "F_min": 0.6531496204846077,
+      "P_cont": 0.43712507137149254,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "left_biased | reroute | none": [
+          "BOUNCE"
+        ],
+        "right_biased | buffer | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "SB",
+          "EXCH",
+          "BQ0",
+          "SWEQ"
+        ],
+        "right_biased | reroute | none": [
+          "SWAP"
+        ]
+      },
+      "continuation_neff": 2.6129032258064515,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        10,
+        11
+      ]
+    },
+    {
+      "F_min": 0.5765636162211746,
+      "P_cont": 0.6143781254192888,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "left_biased | pass | none": [
+          "BOUNCE",
+          "EXCH"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "BQ0",
+          "SWEQ"
+        ],
+        "right_biased | pass | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "right_biased | pass | storage": [
+          "SWAP",
+          "SB"
+        ]
+      },
+      "continuation_neff": 3.857142857142857,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        10,
+        12
+      ]
+    },
+    {
+      "F_min": 1.0291754236849155,
+      "P_cont": 0.46747762394466863,
+      "confusion_label": "true_negative",
+      "continuation_class_count": 3,
+      "continuation_classes": {
+        "balanced | pass | none": [
+          "ID",
+          "BOUNCE",
+          "EXCH",
+          "BQ0"
+        ],
+        "balanced | pass | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "balanced | pass | storage": [
+          "SWAP",
+          "SB",
+          "SWEQ"
+        ]
+      },
+      "continuation_neff": 2.793103448275862,
+      "exists_legal_continuation": false,
+      "input_pair": [
+        10,
+        13
+      ]
+    },
+    {
+      "F_min": 1.0979077259821097,
+      "P_cont": 0.6599280703768123,
+      "confusion_label": "true_negative",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "balanced | pass | none": [
+          "EXCH"
+        ],
+        "left_biased | pass | none": [
+          "BOUNCE"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "BQ0"
+        ],
+        "right_biased | pass | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "right_biased | pass | storage": [
+          "SWAP",
+          "SB",
+          "SWEQ"
+        ]
+      },
+      "continuation_neff": 4.2631578947368425,
+      "exists_legal_continuation": false,
+      "input_pair": [
+        10,
+        14
+      ]
+    },
+    {
+      "F_min": 0.9610746691606282,
+      "P_cont": 0.5729750848998644,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "left_biased | reroute | none": [
+          "BOUNCE"
+        ],
+        "right_biased | buffer | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "right_biased | buffer | storage": [
+          "SB"
+        ],
+        "right_biased | mixed | storage": [
+          "SWAP"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "EXCH",
+          "BQ0",
+          "SWEQ"
+        ]
+      },
+      "continuation_neff": 3.5217391304347827,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        10,
+        15
+      ]
+    },
+    {
+      "F_min": 0.37017812229544544,
+      "P_cont": 0.33264124026360364,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "balanced | buffer | queue": [
+          "TQ"
+        ],
+        "balanced | mixed | queue": [
+          "SWAP"
+        ],
+        "balanced | pass | none": [
+          "ID",
+          "SB",
+          "BOUNCE",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ],
+        "left_biased | reroute | none": [
+          "EXCH"
+        ]
+      },
+      "continuation_neff": 2.076923076923077,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        11,
+        0
+      ]
+    },
+    {
+      "F_min": 0.5617137006591747,
+      "P_cont": 0.33264124026360364,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "left_biased | buffer | queue": [
+          "TQ"
+        ],
+        "left_biased | mixed | queue": [
+          "SWAP"
+        ],
+        "left_biased | pass | none": [
+          "ID",
+          "SB",
+          "EXCH",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ],
+        "right_biased | reroute | none": [
+          "BOUNCE"
+        ]
+      },
+      "continuation_neff": 2.076923076923077,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        11,
+        1
+      ]
+    },
+    {
+      "F_min": 0.5878346584361469,
+      "P_cont": 0.43712507137149254,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "left_biased | reroute | none": [
+          "BOUNCE",
+          "EXCH"
+        ],
+        "right_biased | buffer | queue": [
+          "TQ"
+        ],
+        "right_biased | mixed | queue": [
+          "SWAP"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "SB",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ]
+      },
+      "continuation_neff": 2.6129032258064515,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        11,
+        2
+      ]
+    },
+    {
+      "F_min": 0.6298647887891767,
+      "P_cont": 0.26751323964103635,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 2,
+      "continuation_classes": {
+        "balanced | buffer | queue": [
+          "SWAP",
+          "TQ",
+          "SWEQ"
+        ],
+        "balanced | pass | none": [
+          "ID",
+          "SB",
+          "BOUNCE",
+          "EXCH",
+          "TQ0",
+          "BQ0"
+        ]
+      },
+      "continuation_neff": 1.7999999999999998,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        11,
+        3
+      ]
+    },
+    {
+      "F_min": 0.4585867574827089,
+      "P_cont": 0.4674776239446685,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "balanced | buffer | queue": [
+          "TQ"
+        ],
+        "balanced | buffer | storage": [
+          "SB"
+        ],
+        "balanced | mixed | both": [
+          "SWAP"
+        ],
+        "balanced | pass | none": [
+          "ID",
+          "BOUNCE",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ],
+        "left_biased | reroute | none": [
+          "EXCH"
+        ]
+      },
+      "continuation_neff": 2.7931034482758617,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        11,
+        4
+      ]
+    },
+    {
+      "F_min": 0.9005284957243012,
+      "P_cont": 0.4674776239446685,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "left_biased | buffer | queue": [
+          "TQ"
+        ],
+        "left_biased | buffer | storage": [
+          "SB"
+        ],
+        "left_biased | mixed | both": [
+          "SWAP"
+        ],
+        "left_biased | pass | none": [
+          "ID",
+          "EXCH",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ],
+        "right_biased | reroute | none": [
+          "BOUNCE"
+        ]
+      },
+      "continuation_neff": 2.7931034482758617,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        11,
+        5
+      ]
+    },
+    {
+      "F_min": 0.9334964522727998,
+      "P_cont": 0.5729750848998644,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "left_biased | reroute | none": [
+          "BOUNCE",
+          "EXCH"
+        ],
+        "right_biased | buffer | queue": [
+          "TQ"
+        ],
+        "right_biased | buffer | storage": [
+          "SB"
+        ],
+        "right_biased | mixed | both": [
+          "SWAP"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ]
+      },
+      "continuation_neff": 3.5217391304347827,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        11,
+        6
+      ]
+    },
+    {
+      "F_min": 0.8910433230451836,
+      "P_cont": 0.43712507137149254,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "balanced | buffer | both": [
+          "SWAP",
+          "SWEQ"
+        ],
+        "balanced | buffer | queue": [
+          "TQ"
+        ],
+        "balanced | buffer | storage": [
+          "SB"
+        ],
+        "balanced | pass | none": [
+          "ID",
+          "BOUNCE",
+          "EXCH",
+          "TQ0",
+          "BQ0"
+        ]
+      },
+      "continuation_neff": 2.6129032258064515,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        11,
+        7
+      ]
+    },
+    {
+      "F_min": 0.39920140871430343,
+      "P_cont": 0.43712507137149254,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "balanced | buffer | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "balanced | pass | none": [
+          "ID",
+          "SB",
+          "BOUNCE",
+          "BQ0",
+          "SWEQ"
+        ],
+        "balanced | reroute | none": [
+          "SWAP"
+        ],
+        "left_biased | reroute | none": [
+          "EXCH"
+        ]
+      },
+      "continuation_neff": 2.6129032258064515,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        11,
+        8
+      ]
+    },
+    {
+      "F_min": 0.6531496204846077,
+      "P_cont": 0.43712507137149254,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "left_biased | buffer | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "left_biased | pass | none": [
+          "ID",
+          "SB",
+          "EXCH",
+          "BQ0",
+          "SWEQ"
+        ],
+        "left_biased | reroute | none": [
+          "SWAP"
+        ],
+        "right_biased | reroute | none": [
+          "BOUNCE"
+        ]
+      },
+      "continuation_neff": 2.6129032258064515,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        11,
+        9
+      ]
+    },
+    {
+      "F_min": 0.6803444560153243,
+      "P_cont": 0.5350264792820728,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "left_biased | reroute | none": [
+          "BOUNCE",
+          "EXCH"
+        ],
+        "right_biased | buffer | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "SB",
+          "BQ0",
+          "SWEQ"
+        ],
+        "right_biased | reroute | none": [
+          "SWAP"
+        ]
+      },
+      "continuation_neff": 3.24,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        11,
+        10
+      ]
+    },
+    {
+      "F_min": 0.609178410989657,
+      "P_cont": 0.19304227956276507,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 2,
+      "continuation_classes": {
+        "balanced | buffer | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "balanced | pass | none": [
+          "ID",
+          "SWAP",
+          "SB",
+          "BOUNCE",
+          "EXCH",
+          "BQ0",
+          "SWEQ"
+        ]
+      },
+      "continuation_neff": 1.5283018867924527,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        11,
+        11
+      ]
+    },
+    {
+      "F_min": 0.5617768160356659,
+      "P_cont": 0.5729750848998644,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "balanced | buffer | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "balanced | buffer | storage": [
+          "SB"
+        ],
+        "balanced | mixed | storage": [
+          "SWAP"
+        ],
+        "balanced | pass | none": [
+          "ID",
+          "BOUNCE",
+          "BQ0",
+          "SWEQ"
+        ],
+        "left_biased | reroute | none": [
+          "EXCH"
+        ]
+      },
+      "continuation_neff": 3.5217391304347827,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        11,
+        12
+      ]
+    },
+    {
+      "F_min": 1.066853088311771,
+      "P_cont": 0.5729750848998644,
+      "confusion_label": "true_negative",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "left_biased | buffer | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "left_biased | buffer | storage": [
+          "SB"
+        ],
+        "left_biased | mixed | storage": [
+          "SWAP"
+        ],
+        "left_biased | pass | none": [
+          "ID",
+          "EXCH",
+          "BQ0",
+          "SWEQ"
+        ],
+        "right_biased | reroute | none": [
+          "BOUNCE"
+        ]
+      },
+      "continuation_neff": 3.5217391304347827,
+      "exists_legal_continuation": false,
+      "input_pair": [
+        11,
+        13
+      ]
+    },
+    {
+      "F_min": 1.0979077259821097,
+      "P_cont": 0.6599280703768123,
+      "confusion_label": "true_negative",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "left_biased | reroute | none": [
+          "BOUNCE",
+          "EXCH"
+        ],
+        "right_biased | buffer | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "right_biased | buffer | storage": [
+          "SB"
+        ],
+        "right_biased | mixed | storage": [
+          "SWAP"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "BQ0",
+          "SWEQ"
+        ]
+      },
+      "continuation_neff": 4.2631578947368425,
+      "exists_legal_continuation": false,
+      "input_pair": [
+        11,
+        14
+      ]
+    },
+    {
+      "F_min": 1.0291754236849155,
+      "P_cont": 0.46747762394466863,
+      "confusion_label": "true_negative",
+      "continuation_class_count": 3,
+      "continuation_classes": {
+        "balanced | buffer | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "balanced | buffer | storage": [
+          "SWAP",
+          "SB",
+          "SWEQ"
+        ],
+        "balanced | pass | none": [
+          "ID",
+          "BOUNCE",
+          "EXCH",
+          "BQ0"
+        ]
+      },
+      "continuation_neff": 2.793103448275862,
+      "exists_legal_continuation": false,
+      "input_pair": [
+        11,
+        15
+      ]
+    },
+    {
+      "F_min": 0.5132589540612472,
+      "P_cont": 0.43712507137149254,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "inactive | pass | both": [
+          "SWAP",
+          "SWEQ"
+        ],
+        "inactive | pass | none": [
+          "ID",
+          "BOUNCE",
+          "EXCH",
+          "TQ0",
+          "BQ0"
+        ],
+        "inactive | pass | queue": [
+          "TQ"
+        ],
+        "inactive | pass | storage": [
+          "SB"
+        ]
+      },
+      "continuation_neff": 2.6129032258064515,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        12,
+        0
+      ]
+    },
+    {
+      "F_min": 0.5617768160356659,
+      "P_cont": 0.5729750848998644,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "left_biased | pass | both": [
+          "SWAP"
+        ],
+        "left_biased | pass | none": [
+          "ID",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ],
+        "left_biased | pass | queue": [
+          "TQ"
+        ],
+        "left_biased | pass | storage": [
+          "SB"
+        ],
+        "right_biased | pass | none": [
+          "BOUNCE",
+          "EXCH"
+        ]
+      },
+      "continuation_neff": 3.5217391304347827,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        12,
+        1
+      ]
+    },
+    {
+      "F_min": 0.5240991514088101,
+      "P_cont": 0.4674776239446685,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "left_biased | pass | none": [
+          "BOUNCE"
+        ],
+        "right_biased | pass | both": [
+          "SWAP"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "EXCH",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ],
+        "right_biased | pass | queue": [
+          "TQ"
+        ],
+        "right_biased | pass | storage": [
+          "SB"
+        ]
+      },
+      "continuation_neff": 2.7931034482758617,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        12,
+        2
+      ]
+    },
+    {
+      "F_min": 0.5240991514088101,
+      "P_cont": 0.4674776239446685,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "balanced | buffer | queue": [
+          "TQ"
+        ],
+        "balanced | buffer | storage": [
+          "SB"
+        ],
+        "balanced | mixed | both": [
+          "SWAP"
+        ],
+        "balanced | pass | none": [
+          "ID",
+          "BOUNCE",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ],
+        "right_biased | reroute | none": [
+          "EXCH"
+        ]
+      },
+      "continuation_neff": 2.7931034482758617,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        12,
+        3
+      ]
+    },
+    {
+      "F_min": 0.45268329987179867,
+      "P_cont": 0.26751323964103635,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 2,
+      "continuation_classes": {
+        "inactive | pass | none": [
+          "ID",
+          "SB",
+          "BOUNCE",
+          "EXCH",
+          "TQ0",
+          "BQ0"
+        ],
+        "inactive | pass | queue": [
+          "SWAP",
+          "TQ",
+          "SWEQ"
+        ]
+      },
+      "continuation_neff": 1.7999999999999998,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        12,
+        4
+      ]
+    },
+    {
+      "F_min": 0.8821513728284456,
+      "P_cont": 0.40867083067793086,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 3,
+      "continuation_classes": {
+        "left_biased | pass | none": [
+          "ID",
+          "SB",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ],
+        "left_biased | pass | queue": [
+          "SWAP",
+          "TQ"
+        ],
+        "right_biased | pass | none": [
+          "BOUNCE",
+          "EXCH"
+        ]
+      },
+      "continuation_neff": 2.454545454545454,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        12,
+        5
+      ]
+    },
+    {
+      "F_min": 0.8512793998009741,
+      "P_cont": 0.3098805169900223,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 3,
+      "continuation_classes": {
+        "left_biased | pass | none": [
+          "BOUNCE"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "SB",
+          "EXCH",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ],
+        "right_biased | pass | queue": [
+          "SWAP",
+          "TQ"
+        ]
+      },
+      "continuation_neff": 1.975609756097561,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        12,
+        6
+      ]
+    },
+    {
+      "F_min": 0.7289503875823761,
+      "P_cont": 0.33264124026360364,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "balanced | buffer | queue": [
+          "TQ"
+        ],
+        "balanced | mixed | queue": [
+          "SWAP"
+        ],
+        "balanced | pass | none": [
+          "ID",
+          "SB",
+          "BOUNCE",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ],
+        "right_biased | reroute | none": [
+          "EXCH"
+        ]
+      },
+      "continuation_neff": 2.076923076923077,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        12,
+        7
+      ]
+    },
+    {
+      "F_min": 0.5240991514088101,
+      "P_cont": 0.46747762394466863,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 3,
+      "continuation_classes": {
+        "inactive | pass | none": [
+          "ID",
+          "BOUNCE",
+          "EXCH",
+          "BQ0"
+        ],
+        "inactive | pass | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "inactive | pass | storage": [
+          "SWAP",
+          "SB",
+          "SWEQ"
+        ]
+      },
+      "continuation_neff": 2.793103448275862,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        12,
+        8
+      ]
+    },
+    {
+      "F_min": 0.5765636162211746,
+      "P_cont": 0.6143781254192888,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "left_biased | pass | none": [
+          "ID",
+          "BQ0",
+          "SWEQ"
+        ],
+        "left_biased | pass | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "left_biased | pass | storage": [
+          "SWAP",
+          "SB"
+        ],
+        "right_biased | pass | none": [
+          "BOUNCE",
+          "EXCH"
+        ]
+      },
+      "continuation_neff": 3.857142857142857,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        12,
+        9
+      ]
+    },
+    {
+      "F_min": 0.5482237426007402,
+      "P_cont": 0.5350264792820728,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "left_biased | pass | none": [
+          "BOUNCE"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "EXCH",
+          "BQ0",
+          "SWEQ"
+        ],
+        "right_biased | pass | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "right_biased | pass | storage": [
+          "SWAP",
+          "SB"
+        ]
+      },
+      "continuation_neff": 3.24,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        12,
+        10
+      ]
+    },
+    {
+      "F_min": 0.5617768160356659,
+      "P_cont": 0.5729750848998644,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "balanced | buffer | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "balanced | buffer | storage": [
+          "SB"
+        ],
+        "balanced | mixed | storage": [
+          "SWAP"
+        ],
+        "balanced | pass | none": [
+          "ID",
+          "BOUNCE",
+          "BQ0",
+          "SWEQ"
+        ],
+        "right_biased | reroute | none": [
+          "EXCH"
+        ]
+      },
+      "continuation_neff": 3.5217391304347827,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        12,
+        11
+      ]
+    },
+    {
+      "F_min": 0.4260865284152732,
+      "P_cont": 0.19304227956276507,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 2,
+      "continuation_classes": {
+        "inactive | pass | none": [
+          "ID",
+          "SWAP",
+          "SB",
+          "BOUNCE",
+          "EXCH",
+          "BQ0",
+          "SWEQ"
+        ],
+        "inactive | pass | queue": [
+          "TQ",
+          "TQ0"
+        ]
+      },
+      "continuation_neff": 1.5283018867924527,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        12,
+        12
+      ]
+    },
+    {
+      "F_min": 1.0081729975182234,
+      "P_cont": 0.40867083067793086,
+      "confusion_label": "true_negative",
+      "continuation_class_count": 3,
+      "continuation_classes": {
+        "left_biased | pass | none": [
+          "ID",
+          "SWAP",
+          "SB",
+          "BQ0",
+          "SWEQ"
+        ],
+        "left_biased | pass | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "right_biased | pass | none": [
+          "BOUNCE",
+          "EXCH"
+        ]
+      },
+      "continuation_neff": 2.454545454545454,
+      "exists_legal_continuation": false,
+      "input_pair": [
+        12,
+        13
+      ]
+    },
+    {
+      "F_min": 0.9728907426296847,
+      "P_cont": 0.3098805169900223,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 3,
+      "continuation_classes": {
+        "left_biased | pass | none": [
+          "BOUNCE"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "SWAP",
+          "SB",
+          "EXCH",
+          "BQ0",
+          "SWEQ"
+        ],
+        "right_biased | pass | queue": [
+          "TQ",
+          "TQ0"
+        ]
+      },
+      "continuation_neff": 1.975609756097561,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        12,
+        14
+      ]
+    },
+    {
+      "F_min": 0.8704018112041044,
+      "P_cont": 0.43712507137149254,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "balanced | buffer | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "balanced | pass | none": [
+          "ID",
+          "SB",
+          "BOUNCE",
+          "BQ0",
+          "SWEQ"
+        ],
+        "balanced | reroute | none": [
+          "SWAP"
+        ],
+        "right_biased | reroute | none": [
+          "EXCH"
+        ]
+      },
+      "continuation_neff": 2.6129032258064515,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        12,
+        15
+      ]
+    },
+    {
+      "F_min": 1.0291754236849155,
+      "P_cont": 0.4674776239446685,
+      "confusion_label": "true_negative",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "left_biased | pass | both": [
+          "SWAP"
+        ],
+        "left_biased | pass | none": [
+          "ID",
+          "EXCH",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ],
+        "left_biased | pass | queue": [
+          "TQ"
+        ],
+        "left_biased | pass | storage": [
+          "SB"
+        ],
+        "right_biased | pass | none": [
+          "BOUNCE"
+        ]
+      },
+      "continuation_neff": 2.7931034482758617,
+      "exists_legal_continuation": false,
+      "input_pair": [
+        13,
+        0
+      ]
+    },
+    {
+      "F_min": 1.1159866431399328,
+      "P_cont": 0.710549038418717,
+      "confusion_label": "true_negative",
+      "continuation_class_count": 6,
+      "continuation_classes": {
+        "balanced | pass | none": [
+          "EXCH"
+        ],
+        "left_biased | pass | both": [
+          "SWAP",
+          "SWEQ"
+        ],
+        "left_biased | pass | none": [
+          "ID",
+          "TQ0",
+          "BQ0"
+        ],
+        "left_biased | pass | queue": [
+          "TQ"
+        ],
+        "left_biased | pass | storage": [
+          "SB"
+        ],
+        "right_biased | pass | none": [
+          "BOUNCE"
+        ]
+      },
+      "continuation_neff": 4.764705882352941,
+      "exists_legal_continuation": false,
+      "input_pair": [
+        13,
+        1
+      ]
+    },
+    {
+      "F_min": 1.0183352263373526,
+      "P_cont": 0.43712507137149254,
+      "confusion_label": "true_negative",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "balanced | pass | both": [
+          "SWAP",
+          "SWEQ"
+        ],
+        "balanced | pass | none": [
+          "ID",
+          "BOUNCE",
+          "EXCH",
+          "TQ0",
+          "BQ0"
+        ],
+        "balanced | pass | queue": [
+          "TQ"
+        ],
+        "balanced | pass | storage": [
+          "SB"
+        ]
+      },
+      "continuation_neff": 2.6129032258064515,
+      "exists_legal_continuation": false,
+      "input_pair": [
+        13,
+        2
+      ]
+    },
+    {
+      "F_min": 1.066853088311771,
+      "P_cont": 0.5729750848998644,
+      "confusion_label": "true_negative",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "left_biased | buffer | queue": [
+          "TQ"
+        ],
+        "left_biased | buffer | storage": [
+          "SB"
+        ],
+        "left_biased | mixed | both": [
+          "SWAP"
+        ],
+        "left_biased | pass | none": [
+          "ID",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ],
+        "right_biased | reroute | none": [
+          "BOUNCE",
+          "EXCH"
+        ]
+      },
+      "continuation_neff": 3.5217391304347827,
+      "exists_legal_continuation": false,
+      "input_pair": [
+        13,
+        3
+      ]
+    },
+    {
+      "F_min": 0.9728907426296847,
+      "P_cont": 0.3098805169900223,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 3,
+      "continuation_classes": {
+        "left_biased | pass | none": [
+          "ID",
+          "SB",
+          "EXCH",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ],
+        "left_biased | pass | queue": [
+          "SWAP",
+          "TQ"
+        ],
+        "right_biased | pass | none": [
+          "BOUNCE"
+        ]
+      },
+      "continuation_neff": 1.975609756097561,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        13,
+        4
+      ]
+    },
+    {
+      "F_min": 1.0407905579903909,
+      "P_cont": 0.5,
+      "confusion_label": "true_negative",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "balanced | pass | none": [
+          "EXCH"
+        ],
+        "left_biased | pass | none": [
+          "ID",
+          "SB",
+          "TQ0",
+          "BQ0"
+        ],
+        "left_biased | pass | queue": [
+          "SWAP",
+          "TQ",
+          "SWEQ"
+        ],
+        "right_biased | pass | none": [
+          "BOUNCE"
+        ]
+      },
+      "continuation_neff": 3.0,
+      "exists_legal_continuation": false,
+      "input_pair": [
+        13,
+        5
+      ]
+    },
+    {
+      "F_min": 0.957759572147904,
+      "P_cont": 0.26751323964103635,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 2,
+      "continuation_classes": {
+        "balanced | pass | none": [
+          "ID",
+          "SB",
+          "BOUNCE",
+          "EXCH",
+          "TQ0",
+          "BQ0"
+        ],
+        "balanced | pass | queue": [
+          "SWAP",
+          "TQ",
+          "SWEQ"
+        ]
+      },
+      "continuation_neff": 1.7999999999999998,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        13,
+        6
+      ]
+    },
+    {
+      "F_min": 1.0183352263373526,
+      "P_cont": 0.43712507137149254,
+      "confusion_label": "true_negative",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "left_biased | buffer | queue": [
+          "TQ"
+        ],
+        "left_biased | mixed | queue": [
+          "SWAP"
+        ],
+        "left_biased | pass | none": [
+          "ID",
+          "SB",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ],
+        "right_biased | reroute | none": [
+          "BOUNCE",
+          "EXCH"
+        ]
+      },
+      "continuation_neff": 2.6129032258064515,
+      "exists_legal_continuation": false,
+      "input_pair": [
+        13,
+        7
+      ]
+    },
+    {
+      "F_min": 1.0533000148768457,
+      "P_cont": 0.5350264792820728,
+      "confusion_label": "true_negative",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "left_biased | pass | none": [
+          "ID",
+          "EXCH",
+          "BQ0",
+          "SWEQ"
+        ],
+        "left_biased | pass | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "left_biased | pass | storage": [
+          "SWAP",
+          "SB"
+        ],
+        "right_biased | pass | none": [
+          "BOUNCE"
+        ]
+      },
+      "continuation_neff": 3.24,
+      "exists_legal_continuation": false,
+      "input_pair": [
+        13,
+        8
+      ]
+    },
+    {
+      "F_min": 1.0979077259821097,
+      "P_cont": 0.6599280703768123,
+      "confusion_label": "true_negative",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "balanced | pass | none": [
+          "EXCH"
+        ],
+        "left_biased | pass | none": [
+          "ID",
+          "BQ0"
+        ],
+        "left_biased | pass | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "left_biased | pass | storage": [
+          "SWAP",
+          "SB",
+          "SWEQ"
+        ],
+        "right_biased | pass | none": [
+          "BOUNCE"
+        ]
+      },
+      "continuation_neff": 4.2631578947368425,
+      "exists_legal_continuation": false,
+      "input_pair": [
+        13,
+        9
+      ]
+    },
+    {
+      "F_min": 1.0291754236849155,
+      "P_cont": 0.46747762394466863,
+      "confusion_label": "true_negative",
+      "continuation_class_count": 3,
+      "continuation_classes": {
+        "balanced | pass | none": [
+          "ID",
+          "BOUNCE",
+          "EXCH",
+          "BQ0"
+        ],
+        "balanced | pass | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "balanced | pass | storage": [
+          "SWAP",
+          "SB",
+          "SWEQ"
+        ]
+      },
+      "continuation_neff": 2.793103448275862,
+      "exists_legal_continuation": false,
+      "input_pair": [
+        13,
+        10
+      ]
+    },
+    {
+      "F_min": 1.0979077259821097,
+      "P_cont": 0.6599280703768123,
+      "confusion_label": "true_negative",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "left_biased | buffer | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "left_biased | buffer | storage": [
+          "SB"
+        ],
+        "left_biased | mixed | storage": [
+          "SWAP"
+        ],
+        "left_biased | pass | none": [
+          "ID",
+          "BQ0",
+          "SWEQ"
+        ],
+        "right_biased | reroute | none": [
+          "BOUNCE",
+          "EXCH"
+        ]
+      },
+      "continuation_neff": 4.2631578947368425,
+      "exists_legal_continuation": false,
+      "input_pair": [
+        13,
+        11
+      ]
+    },
+    {
+      "F_min": 0.9728907426296847,
+      "P_cont": 0.3098805169900223,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 3,
+      "continuation_classes": {
+        "left_biased | pass | none": [
+          "ID",
+          "SWAP",
+          "SB",
+          "EXCH",
+          "BQ0",
+          "SWEQ"
+        ],
+        "left_biased | pass | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "right_biased | pass | none": [
+          "BOUNCE"
+        ]
+      },
+      "continuation_neff": 1.975609756097561,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        13,
+        12
+      ]
+    },
+    {
+      "F_min": 1.0183352263373526,
+      "P_cont": 0.43712507137149254,
+      "confusion_label": "true_negative",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "balanced | pass | none": [
+          "EXCH"
+        ],
+        "left_biased | pass | none": [
+          "ID",
+          "SWAP",
+          "SB",
+          "BQ0",
+          "SWEQ"
+        ],
+        "left_biased | pass | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "right_biased | pass | none": [
+          "BOUNCE"
+        ]
+      },
+      "continuation_neff": 2.6129032258064515,
+      "exists_legal_continuation": false,
+      "input_pair": [
+        13,
+        13
+      ]
+    },
+    {
+      "F_min": 0.9311628006913785,
+      "P_cont": 0.19304227956276507,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 2,
+      "continuation_classes": {
+        "balanced | pass | none": [
+          "ID",
+          "SWAP",
+          "SB",
+          "BOUNCE",
+          "EXCH",
+          "BQ0",
+          "SWEQ"
+        ],
+        "balanced | pass | queue": [
+          "TQ",
+          "TQ0"
+        ]
+      },
+      "continuation_neff": 1.5283018867924527,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        13,
+        14
+      ]
+    },
+    {
+      "F_min": 1.0533000148768457,
+      "P_cont": 0.5350264792820728,
+      "confusion_label": "true_negative",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "left_biased | buffer | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "left_biased | pass | none": [
+          "ID",
+          "SB",
+          "BQ0",
+          "SWEQ"
+        ],
+        "left_biased | reroute | none": [
+          "SWAP"
+        ],
+        "right_biased | reroute | none": [
+          "BOUNCE",
+          "EXCH"
+        ]
+      },
+      "continuation_neff": 3.24,
+      "exists_legal_continuation": false,
+      "input_pair": [
+        13,
+        15
+      ]
+    },
+    {
+      "F_min": 1.066853088311771,
+      "P_cont": 0.5729750848998644,
+      "confusion_label": "true_negative",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "left_biased | pass | none": [
+          "BOUNCE",
+          "EXCH"
+        ],
+        "right_biased | pass | both": [
+          "SWAP"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ],
+        "right_biased | pass | queue": [
+          "TQ"
+        ],
+        "right_biased | pass | storage": [
+          "SB"
+        ]
+      },
+      "continuation_neff": 3.5217391304347827,
+      "exists_legal_continuation": false,
+      "input_pair": [
+        14,
+        0
+      ]
+    },
+    {
+      "F_min": 1.0183352263373526,
+      "P_cont": 0.43712507137149254,
+      "confusion_label": "true_negative",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "balanced | pass | both": [
+          "SWAP",
+          "SWEQ"
+        ],
+        "balanced | pass | none": [
+          "ID",
+          "BOUNCE",
+          "EXCH",
+          "TQ0",
+          "BQ0"
+        ],
+        "balanced | pass | queue": [
+          "TQ"
+        ],
+        "balanced | pass | storage": [
+          "SB"
+        ]
+      },
+      "continuation_neff": 2.6129032258064515,
+      "exists_legal_continuation": false,
+      "input_pair": [
+        14,
+        1
+      ]
+    },
+    {
+      "F_min": 1.1159866431399328,
+      "P_cont": 0.710549038418717,
+      "confusion_label": "true_negative",
+      "continuation_class_count": 6,
+      "continuation_classes": {
+        "balanced | pass | none": [
+          "EXCH"
+        ],
+        "left_biased | pass | none": [
+          "BOUNCE"
+        ],
+        "right_biased | pass | both": [
+          "SWAP",
+          "SWEQ"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "TQ0",
+          "BQ0"
+        ],
+        "right_biased | pass | queue": [
+          "TQ"
+        ],
+        "right_biased | pass | storage": [
+          "SB"
+        ]
+      },
+      "continuation_neff": 4.764705882352941,
+      "exists_legal_continuation": false,
+      "input_pair": [
+        14,
+        2
+      ]
+    },
+    {
+      "F_min": 1.0291754236849155,
+      "P_cont": 0.4674776239446685,
+      "confusion_label": "true_negative",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "left_biased | reroute | none": [
+          "BOUNCE"
+        ],
+        "right_biased | buffer | queue": [
+          "TQ"
+        ],
+        "right_biased | buffer | storage": [
+          "SB"
+        ],
+        "right_biased | mixed | both": [
+          "SWAP"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "EXCH",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ]
+      },
+      "continuation_neff": 2.7931034482758617,
+      "exists_legal_continuation": false,
+      "input_pair": [
+        14,
+        3
+      ]
+    },
+    {
+      "F_min": 1.0081729975182234,
+      "P_cont": 0.40867083067793086,
+      "confusion_label": "true_negative",
+      "continuation_class_count": 3,
+      "continuation_classes": {
+        "left_biased | pass | none": [
+          "BOUNCE",
+          "EXCH"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "SB",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ],
+        "right_biased | pass | queue": [
+          "SWAP",
+          "TQ"
+        ]
+      },
+      "continuation_neff": 2.454545454545454,
+      "exists_legal_continuation": false,
+      "input_pair": [
+        14,
+        4
+      ]
+    },
+    {
+      "F_min": 0.957759572147904,
+      "P_cont": 0.26751323964103635,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 2,
+      "continuation_classes": {
+        "balanced | pass | none": [
+          "ID",
+          "SB",
+          "BOUNCE",
+          "EXCH",
+          "TQ0",
+          "BQ0"
+        ],
+        "balanced | pass | queue": [
+          "SWAP",
+          "TQ",
+          "SWEQ"
+        ]
+      },
+      "continuation_neff": 1.7999999999999998,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        14,
+        5
+      ]
+    },
+    {
+      "F_min": 1.0407905579903909,
+      "P_cont": 0.5,
+      "confusion_label": "true_negative",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "balanced | pass | none": [
+          "EXCH"
+        ],
+        "left_biased | pass | none": [
+          "BOUNCE"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "SB",
+          "TQ0",
+          "BQ0"
+        ],
+        "right_biased | pass | queue": [
+          "SWAP",
+          "TQ",
+          "SWEQ"
+        ]
+      },
+      "continuation_neff": 3.0,
+      "exists_legal_continuation": false,
+      "input_pair": [
+        14,
+        6
+      ]
+    },
+    {
+      "F_min": 0.9810195723702495,
+      "P_cont": 0.33264124026360364,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "left_biased | reroute | none": [
+          "BOUNCE"
+        ],
+        "right_biased | buffer | queue": [
+          "TQ"
+        ],
+        "right_biased | mixed | queue": [
+          "SWAP"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "SB",
+          "EXCH",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ]
+      },
+      "continuation_neff": 2.076923076923077,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        14,
+        7
+      ]
+    },
+    {
+      "F_min": 1.08163988849728,
+      "P_cont": 0.6143781254192888,
+      "confusion_label": "true_negative",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "left_biased | pass | none": [
+          "BOUNCE",
+          "EXCH"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "BQ0",
+          "SWEQ"
+        ],
+        "right_biased | pass | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "right_biased | pass | storage": [
+          "SWAP",
+          "SB"
+        ]
+      },
+      "continuation_neff": 3.857142857142857,
+      "exists_legal_continuation": false,
+      "input_pair": [
+        14,
+        8
+      ]
+    },
+    {
+      "F_min": 1.0291754236849155,
+      "P_cont": 0.46747762394466863,
+      "confusion_label": "true_negative",
+      "continuation_class_count": 3,
+      "continuation_classes": {
+        "balanced | pass | none": [
+          "ID",
+          "BOUNCE",
+          "EXCH",
+          "BQ0"
+        ],
+        "balanced | pass | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "balanced | pass | storage": [
+          "SWAP",
+          "SB",
+          "SWEQ"
+        ]
+      },
+      "continuation_neff": 2.793103448275862,
+      "exists_legal_continuation": false,
+      "input_pair": [
+        14,
+        9
+      ]
+    },
+    {
+      "F_min": 1.0979077259821097,
+      "P_cont": 0.6599280703768123,
+      "confusion_label": "true_negative",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "balanced | pass | none": [
+          "EXCH"
+        ],
+        "left_biased | pass | none": [
+          "BOUNCE"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "BQ0"
+        ],
+        "right_biased | pass | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "right_biased | pass | storage": [
+          "SWAP",
+          "SB",
+          "SWEQ"
+        ]
+      },
+      "continuation_neff": 4.2631578947368425,
+      "exists_legal_continuation": false,
+      "input_pair": [
+        14,
+        10
+      ]
+    },
+    {
+      "F_min": 1.066853088311771,
+      "P_cont": 0.5729750848998644,
+      "confusion_label": "true_negative",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "left_biased | reroute | none": [
+          "BOUNCE"
+        ],
+        "right_biased | buffer | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "right_biased | buffer | storage": [
+          "SB"
+        ],
+        "right_biased | mixed | storage": [
+          "SWAP"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "EXCH",
+          "BQ0",
+          "SWEQ"
+        ]
+      },
+      "continuation_neff": 3.5217391304347827,
+      "exists_legal_continuation": false,
+      "input_pair": [
+        14,
+        11
+      ]
+    },
+    {
+      "F_min": 1.0081729975182234,
+      "P_cont": 0.40867083067793086,
+      "confusion_label": "true_negative",
+      "continuation_class_count": 3,
+      "continuation_classes": {
+        "left_biased | pass | none": [
+          "BOUNCE",
+          "EXCH"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "SWAP",
+          "SB",
+          "BQ0",
+          "SWEQ"
+        ],
+        "right_biased | pass | queue": [
+          "TQ",
+          "TQ0"
+        ]
+      },
+      "continuation_neff": 2.454545454545454,
+      "exists_legal_continuation": false,
+      "input_pair": [
+        14,
+        12
+      ]
+    },
+    {
+      "F_min": 0.9311628006913785,
+      "P_cont": 0.19304227956276507,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 2,
+      "continuation_classes": {
+        "balanced | pass | none": [
+          "ID",
+          "SWAP",
+          "SB",
+          "BOUNCE",
+          "EXCH",
+          "BQ0",
+          "SWEQ"
+        ],
+        "balanced | pass | queue": [
+          "TQ",
+          "TQ0"
+        ]
+      },
+      "continuation_neff": 1.5283018867924527,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        14,
+        13
+      ]
+    },
+    {
+      "F_min": 1.0183352263373526,
+      "P_cont": 0.43712507137149254,
+      "confusion_label": "true_negative",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "balanced | pass | none": [
+          "EXCH"
+        ],
+        "left_biased | pass | none": [
+          "BOUNCE"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "SWAP",
+          "SB",
+          "BQ0",
+          "SWEQ"
+        ],
+        "right_biased | pass | queue": [
+          "TQ",
+          "TQ0"
+        ]
+      },
+      "continuation_neff": 2.6129032258064515,
+      "exists_legal_continuation": false,
+      "input_pair": [
+        14,
+        14
+      ]
+    },
+    {
+      "F_min": 1.0183352263373526,
+      "P_cont": 0.43712507137149254,
+      "confusion_label": "true_negative",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "left_biased | reroute | none": [
+          "BOUNCE"
+        ],
+        "right_biased | buffer | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "SB",
+          "EXCH",
+          "BQ0",
+          "SWEQ"
+        ],
+        "right_biased | reroute | none": [
+          "SWAP"
+        ]
+      },
+      "continuation_neff": 2.6129032258064515,
+      "exists_legal_continuation": false,
+      "input_pair": [
+        14,
+        15
+      ]
+    },
+    {
+      "F_min": 0.8812420085516672,
+      "P_cont": 0.4674776239446685,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "balanced | buffer | queue": [
+          "TQ"
+        ],
+        "balanced | buffer | storage": [
+          "SB"
+        ],
+        "balanced | mixed | both": [
+          "SWAP"
+        ],
+        "balanced | pass | none": [
+          "ID",
+          "BOUNCE",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ],
+        "left_biased | reroute | none": [
+          "EXCH"
+        ]
+      },
+      "continuation_neff": 2.7931034482758617,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        15,
+        0
+      ]
+    },
+    {
+      "F_min": 0.9233970045337726,
+      "P_cont": 0.4674776239446685,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "left_biased | buffer | queue": [
+          "TQ"
+        ],
+        "left_biased | buffer | storage": [
+          "SB"
+        ],
+        "left_biased | mixed | both": [
+          "SWAP"
+        ],
+        "left_biased | pass | none": [
+          "ID",
+          "EXCH",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ],
+        "right_biased | reroute | none": [
+          "BOUNCE"
+        ]
+      },
+      "continuation_neff": 2.7931034482758617,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        15,
+        1
+      ]
+    },
+    {
+      "F_min": 0.9610746691606282,
+      "P_cont": 0.5729750848998644,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "left_biased | reroute | none": [
+          "BOUNCE",
+          "EXCH"
+        ],
+        "right_biased | buffer | queue": [
+          "TQ"
+        ],
+        "right_biased | buffer | storage": [
+          "SB"
+        ],
+        "right_biased | mixed | both": [
+          "SWAP"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ]
+      },
+      "continuation_neff": 3.5217391304347827,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        15,
+        2
+      ]
+    },
+    {
+      "F_min": 1.0183352263373526,
+      "P_cont": 0.43712507137149254,
+      "confusion_label": "true_negative",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "balanced | buffer | both": [
+          "SWAP",
+          "SWEQ"
+        ],
+        "balanced | buffer | queue": [
+          "TQ"
+        ],
+        "balanced | buffer | storage": [
+          "SB"
+        ],
+        "balanced | pass | none": [
+          "ID",
+          "BOUNCE",
+          "EXCH",
+          "TQ0",
+          "BQ0"
+        ]
+      },
+      "continuation_neff": 2.6129032258064515,
+      "exists_legal_continuation": false,
+      "input_pair": [
+        15,
+        3
+      ]
+    },
+    {
+      "F_min": 0.8330861572370012,
+      "P_cont": 0.33264124026360364,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "balanced | buffer | queue": [
+          "TQ"
+        ],
+        "balanced | mixed | queue": [
+          "SWAP"
+        ],
+        "balanced | pass | none": [
+          "ID",
+          "SB",
+          "BOUNCE",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ],
+        "left_biased | reroute | none": [
+          "EXCH"
+        ]
+      },
+      "continuation_neff": 2.076923076923077,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        15,
+        4
+      ]
+    },
+    {
+      "F_min": 0.8952777473083104,
+      "P_cont": 0.33264124026360364,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "left_biased | buffer | queue": [
+          "TQ"
+        ],
+        "left_biased | mixed | queue": [
+          "SWAP"
+        ],
+        "left_biased | pass | none": [
+          "ID",
+          "SB",
+          "EXCH",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ],
+        "right_biased | reroute | none": [
+          "BOUNCE"
+        ]
+      },
+      "continuation_neff": 2.076923076923077,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        15,
+        5
+      ]
+    },
+    {
+      "F_min": 0.9279289445295258,
+      "P_cont": 0.43712507137149254,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "left_biased | reroute | none": [
+          "BOUNCE",
+          "EXCH"
+        ],
+        "right_biased | buffer | queue": [
+          "TQ"
+        ],
+        "right_biased | mixed | queue": [
+          "SWAP"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "SB",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ]
+      },
+      "continuation_neff": 2.6129032258064515,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        15,
+        6
+      ]
+    },
+    {
+      "F_min": 0.9577595721479041,
+      "P_cont": 0.26751323964103635,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 2,
+      "continuation_classes": {
+        "balanced | buffer | queue": [
+          "SWAP",
+          "TQ",
+          "SWEQ"
+        ],
+        "balanced | pass | none": [
+          "ID",
+          "SB",
+          "BOUNCE",
+          "EXCH",
+          "TQ0",
+          "BQ0"
+        ]
+      },
+      "continuation_neff": 1.7999999999999998,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        15,
+        7
+      ]
+    },
+    {
+      "F_min": 0.918919673178523,
+      "P_cont": 0.5729750848998644,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "balanced | buffer | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "balanced | buffer | storage": [
+          "SB"
+        ],
+        "balanced | mixed | storage": [
+          "SWAP"
+        ],
+        "balanced | pass | none": [
+          "ID",
+          "BOUNCE",
+          "BQ0",
+          "SWEQ"
+        ],
+        "left_biased | reroute | none": [
+          "EXCH"
+        ]
+      },
+      "continuation_neff": 3.5217391304347827,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        15,
+        8
+      ]
+    },
+    {
+      "F_min": 0.9610746691606282,
+      "P_cont": 0.5729750848998644,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "left_biased | buffer | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "left_biased | buffer | storage": [
+          "SB"
+        ],
+        "left_biased | mixed | storage": [
+          "SWAP"
+        ],
+        "left_biased | pass | none": [
+          "ID",
+          "EXCH",
+          "BQ0",
+          "SWEQ"
+        ],
+        "right_biased | reroute | none": [
+          "BOUNCE"
+        ]
+      },
+      "continuation_neff": 3.5217391304347827,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        15,
+        9
+      ]
+    },
+    {
+      "F_min": 0.9921293068309668,
+      "P_cont": 0.6599280703768123,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 5,
+      "continuation_classes": {
+        "left_biased | reroute | none": [
+          "BOUNCE",
+          "EXCH"
+        ],
+        "right_biased | buffer | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "right_biased | buffer | storage": [
+          "SB"
+        ],
+        "right_biased | mixed | storage": [
+          "SWAP"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "BQ0",
+          "SWEQ"
+        ]
+      },
+      "continuation_neff": 4.2631578947368425,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        15,
+        10
+      ]
+    },
+    {
+      "F_min": 1.0291754236849155,
+      "P_cont": 0.46747762394466863,
+      "confusion_label": "true_negative",
+      "continuation_class_count": 3,
+      "continuation_classes": {
+        "balanced | buffer | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "balanced | buffer | storage": [
+          "SWAP",
+          "SB",
+          "SWEQ"
+        ],
+        "balanced | pass | none": [
+          "ID",
+          "BOUNCE",
+          "EXCH",
+          "BQ0"
+        ]
+      },
+      "continuation_neff": 2.793103448275862,
+      "exists_legal_continuation": false,
+      "input_pair": [
+        15,
+        11
+      ]
+    },
+    {
+      "F_min": 0.8704018112041044,
+      "P_cont": 0.43712507137149254,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "balanced | buffer | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "balanced | pass | none": [
+          "ID",
+          "SB",
+          "BOUNCE",
+          "BQ0",
+          "SWEQ"
+        ],
+        "balanced | reroute | none": [
+          "SWAP"
+        ],
+        "left_biased | reroute | none": [
+          "EXCH"
+        ]
+      },
+      "continuation_neff": 2.6129032258064515,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        15,
+        12
+      ]
+    },
+    {
+      "F_min": 1.0183352263373526,
+      "P_cont": 0.43712507137149254,
+      "confusion_label": "true_negative",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "left_biased | buffer | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "left_biased | pass | none": [
+          "ID",
+          "SB",
+          "EXCH",
+          "BQ0",
+          "SWEQ"
+        ],
+        "left_biased | reroute | none": [
+          "SWAP"
+        ],
+        "right_biased | reroute | none": [
+          "BOUNCE"
+        ]
+      },
+      "continuation_neff": 2.6129032258064515,
+      "exists_legal_continuation": false,
+      "input_pair": [
+        15,
+        13
+      ]
+    },
+    {
+      "F_min": 1.0533000148768457,
+      "P_cont": 0.5350264792820728,
+      "confusion_label": "true_negative",
+      "continuation_class_count": 4,
+      "continuation_classes": {
+        "left_biased | reroute | none": [
+          "BOUNCE",
+          "EXCH"
+        ],
+        "right_biased | buffer | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "right_biased | pass | none": [
+          "ID",
+          "SB",
+          "BQ0",
+          "SWEQ"
+        ],
+        "right_biased | reroute | none": [
+          "SWAP"
+        ]
+      },
+      "continuation_neff": 3.24,
+      "exists_legal_continuation": false,
+      "input_pair": [
+        15,
+        14
+      ]
+    },
+    {
+      "F_min": 0.9311628006913785,
+      "P_cont": 0.19304227956276507,
+      "confusion_label": "true_positive",
+      "continuation_class_count": 2,
+      "continuation_classes": {
+        "balanced | buffer | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "balanced | pass | none": [
+          "ID",
+          "SWAP",
+          "SB",
+          "BOUNCE",
+          "EXCH",
+          "BQ0",
+          "SWEQ"
+        ]
+      },
+      "continuation_neff": 1.5283018867924527,
+      "exists_legal_continuation": true,
+      "input_pair": [
+        15,
+        15
+      ]
+    }
+  ],
+  "sanitized_rule_count": 9,
+  "sanitized_rule_names": [
+    "ID",
+    "SWAP",
+    "TQ",
+    "SB",
+    "BOUNCE",
+    "EXCH",
+    "TQ0",
+    "BQ0",
+    "SWEQ"
+  ]
+}

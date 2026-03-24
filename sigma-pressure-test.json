@@ -1,0 +1,203 @@
+{
+  "purpose": "adversarial pre-lock spot check of candidate Sigma equivalence",
+  "sample_cases": [
+    {
+      "class_count": 3,
+      "classes": {
+        "inactive | pass | none": [
+          "ID",
+          "SWAP",
+          "SB",
+          "BOUNCE",
+          "EXCH",
+          "SWEQ"
+        ],
+        "inactive | pass | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "inactive | pass | storage": [
+          "BQ0"
+        ]
+      },
+      "input_pair": [
+        0,
+        0
+      ]
+    },
+    {
+      "class_count": 4,
+      "classes": {
+        "left_biased | pass | none": [
+          "ID",
+          "SWAP",
+          "SB",
+          "EXCH",
+          "SWEQ"
+        ],
+        "left_biased | pass | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "left_biased | pass | storage": [
+          "BQ0"
+        ],
+        "right_biased | pass | none": [
+          "BOUNCE"
+        ]
+      },
+      "input_pair": [
+        1,
+        0
+      ]
+    },
+    {
+      "class_count": 5,
+      "classes": {
+        "balanced | buffer | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "balanced | buffer | storage": [
+          "BQ0"
+        ],
+        "balanced | pass | none": [
+          "ID",
+          "SB",
+          "BOUNCE",
+          "SWEQ"
+        ],
+        "balanced | reroute | none": [
+          "SWAP"
+        ],
+        "left_biased | reroute | none": [
+          "EXCH"
+        ]
+      },
+      "input_pair": [
+        3,
+        0
+      ]
+    },
+    {
+      "class_count": 3,
+      "classes": {
+        "balanced | buffer | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "balanced | buffer | storage": [
+          "BQ0"
+        ],
+        "balanced | pass | none": [
+          "ID",
+          "SWAP",
+          "SB",
+          "BOUNCE",
+          "EXCH",
+          "SWEQ"
+        ]
+      },
+      "input_pair": [
+        3,
+        3
+      ]
+    },
+    {
+      "class_count": 3,
+      "classes": {
+        "balanced | buffer | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "balanced | buffer | storage": [
+          "SWAP",
+          "SB",
+          "BQ0",
+          "SWEQ"
+        ],
+        "balanced | pass | none": [
+          "ID",
+          "BOUNCE",
+          "EXCH"
+        ]
+      },
+      "input_pair": [
+        7,
+        3
+      ]
+    },
+    {
+      "class_count": 2,
+      "classes": {
+        "balanced | buffer | queue": [
+          "TQ",
+          "TQ0"
+        ],
+        "balanced | pass | none": [
+          "ID",
+          "SWAP",
+          "SB",
+          "BOUNCE",
+          "EXCH",
+          "BQ0",
+          "SWEQ"
+        ]
+      },
+      "input_pair": [
+        15,
+        15
+      ]
+    },
+    {
+      "class_count": 4,
+      "classes": {
+        "balanced | pass | both": [
+          "SWAP",
+          "SWEQ"
+        ],
+        "balanced | pass | none": [
+          "ID",
+          "BOUNCE",
+          "EXCH",
+          "TQ0",
+          "BQ0"
+        ],
+        "balanced | pass | queue": [
+          "TQ"
+        ],
+        "balanced | pass | storage": [
+          "SB"
+        ]
+      },
+      "input_pair": [
+        6,
+        9
+      ]
+    },
+    {
+      "class_count": 3,
+      "classes": {
+        "left_biased | pass | none": [
+          "ID",
+          "SB",
+          "TQ0",
+          "BQ0",
+          "SWEQ"
+        ],
+        "left_biased | pass | queue": [
+          "SWAP",
+          "TQ"
+        ],
+        "right_biased | pass | none": [
+          "BOUNCE",
+          "EXCH"
+        ]
+      },
+      "input_pair": [
+        12,
+        5
+      ]
+    }
+  ]
+}
