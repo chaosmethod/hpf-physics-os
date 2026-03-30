@@ -56,7 +56,7 @@ These remain part of the broader HPF / QPRCA working canon:
 
 - `volume-1-master-canon.md`
 - `volume-2-microscopic-derivation.md`
-- `volume-3-provenance-map-updated_v2_no14.md`
+- `volume-3-provenance-map-updated_v2_no14_UPDATED.md`
 - `qprca-v0.2.8.py`
 
 Role split:
@@ -169,7 +169,7 @@ Historical files may still contain those elements. Treat them as archived unless
 ### Full read
 1. `volume-1-master-canon.md`
 2. `volume-2-microscopic-derivation.md`
-3. `volume-3-provenance-map-updated_v2_no14.md`
+3. `volume-3-provenance-map-updated_v2_no14_UPDATED.md`
 4. `Symbol_index_2026-03-29_rewritten_v3_no14.md`
 5. `HPF_Lambda_DarkMatter_Canonical_2026-03-29_master_locked_no14canon.md`
 6. `HPF_Lambda_DarkMatter_Canonical_2026-03-29_final_reader_pass_no14canon_with_selector_robustness.md`
@@ -187,7 +187,7 @@ Historical files may still contain those elements. Treat them as archived unless
 
 ### Internal canon control
 1. `HPF_Lambda_DarkMatter_Canonical_2026-03-29_master_locked_no14canon.md`
-2. `volume-3-provenance-map-updated_v2_no14.md`
+2. `volume-3-provenance-map-updated_v2_no14_UPDATED.md`
 3. `Symbol_index_2026-03-29_rewritten_v3_no14.md`
 
 ---
@@ -217,7 +217,7 @@ Place the active authority documents here:
 - `Symbol_index_2026-03-29_rewritten_v3_no14.md`
 - `volume-1-master-canon.md`
 - `volume-2-microscopic-derivation.md`
-- `volume-3-provenance-map-updated_v2_no14.md`
+- `volume-3-provenance-map-updated_v2_no14_UPDATED.md`
 
 ### Support/
 Place formal support notes here:
